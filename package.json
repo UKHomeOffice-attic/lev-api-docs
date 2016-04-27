@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "aglio": "^2.2.0",
-    "api-mock": "^0.3.2",
+    "drakov": "^1.0.0",
     "dredd": "^1.0.10",
     "request": "^2.72.0"
   }

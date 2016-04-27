@@ -43,14 +43,19 @@ Open the report.html file that is generated after running the tests
 ### Pre-requisites
 api-mock is required (though will also be installed in node_modules directory if needed)
 ```bash
-npm install -g api-mock
+npm install -g drakov
 ```
 
 ### Running the mock
 ```bash
 cd docs
-api-mock lev-api.md --port 8080
+drakov -f lev-api.md -p 8080 --discover -s html-docs
 ```
+
+-p defines the port
+--discover gives a /drakov endpoint which lists available urls
+-f is a global to the specification file
+-s gives a /lev-api.html endpoint (gives endpoints for all static files here)
 
 ## Generating a nice HTML version of the documentation
 There is a git hook to update the html version of the documentation on commit.
