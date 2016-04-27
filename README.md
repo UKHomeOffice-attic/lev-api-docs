@@ -48,7 +48,6 @@ npm install -g drakov
 
 ### Running the mock
 ```bash
-cd docs
 drakov -f lev-api.md -p 8080 --discover -s html-docs
 ```
 
