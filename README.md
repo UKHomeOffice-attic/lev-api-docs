@@ -25,23 +25,23 @@ npm install
 
 ### Running tests with the server already running
 ```bash
-dredd --server false --server-wait 0 --endpoint http://localhost:8080
+dredd lev-api.md http://localhost:8080 
 ```
 
 ### Running tests against server with oauth2 authentication enabled (assuming server running already)
 Environment variables need to be set for oauth properties, e.g.
 ```bash
 KEYCLOAK_U=dredd-tests KEYCLOAK_P="xxxxx" REALM=lev-api-dev CLIENT_ID=dredd-tests CLIENT_SECRET=xxxxxx \
-dredd --server false --server-wait 0 --endpoint http://localhost:8080 --hookfiles=./hooks/oauth2.js
+dredd lev-api.md http://localhost:8080 --server false --server-wait 0 --hookfiles=./hooks/oauth2.js
 ```
 
 ### Running tests with docker
 ```bash
 docker build -t lev-api-e2e-tests .
-docker run --rm --net=host -e KEYCLOAK_U=dredd-tests -e KEYCLOAK_P="xxxxxx" \
+docker run --rm -e KEYCLOAK_U=dredd-tests -e KEYCLOAK_P="xxxxxx" \
 -e REALM=lev-api-dev -e CLIENT_ID=dredd-tests -e \
 CLIENT_SECRET=xxxxxx lev-api-e2e-tests \
---server false --server-wait 0 --endpoint https://lev-api-dev.notprod.homeoffice.gov.uk \
+lev-api.md https://lev-api-dev.notprod.homeoffice.gov.uk \
 --hookfiles=./hooks/oauth2.js
 ```
 
