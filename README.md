@@ -6,8 +6,32 @@ This documentation is used to:
 - Provide a mock version of the LEV API
 - Provide end to end tests against the API
 
+## General pre-requisites
+To run any of the tasks in this repository you will need npm and nodeJS installed.
+
 ## API Documentation
-API documentation will be provided here soon.....
+API documentation is available [here](https://htmlpreview.github.io/?https://github.com/UKHomeOffice/lev-api-docs/blob/master/html-docs/lev-api.html)
+
+## Running a mock version of the API
+
+### Pre-requisites
+drakov is required (though will also be installed in node_modules directory if needed)
+```bash
+npm install -g drakov
+```
+
+### Running the mock
+```bash
+drakov -f lev-api.md -p 8080 --discover -s html-docs
+```
+
+-p defines the port
+
+--discover gives a /drakov endpoint which lists available urls
+
+-f is a global to the specification file
+
+-s gives a /lev-api.html endpoint (gives endpoints for all static files here)
 
 ## Running the E2E tests
 
@@ -47,27 +71,6 @@ lev-api.md https://lev-api-dev.notprod.homeoffice.gov.uk \
 
 ### Viewing full test report
 Open the report.html file that is generated after running the tests
-
-## Running a mock version of the API
-
-### Pre-requisites
-api-mock is required (though will also be installed in node_modules directory if needed)
-```bash
-npm install -g drakov
-```
-
-### Running the mock
-```bash
-drakov -f lev-api.md -p 8080 --discover -s html-docs
-```
-
--p defines the port
-
---discover gives a /drakov endpoint which lists available urls
-
--f is a global to the specification file
-
--s gives a /lev-api.html endpoint (gives endpoints for all static files here)
 
 ## Generating a nice HTML version of the documentation
 There is a git hook to update the html version of the documentation on commit.
