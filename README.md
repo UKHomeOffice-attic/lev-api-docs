@@ -62,8 +62,11 @@ drakov -f lev-api.md -p 8080 --discover -s html-docs
 ```
 
 -p defines the port
+
 --discover gives a /drakov endpoint which lists available urls
+
 -f is a global to the specification file
+
 -s gives a /lev-api.html endpoint (gives endpoints for all static files here)
 
 ## Generating a nice HTML version of the documentation
