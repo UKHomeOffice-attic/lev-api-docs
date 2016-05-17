@@ -117,8 +117,7 @@ Get a list of births. Returns an empty list on no results found
                   "location",
                   "previousRegistration",
                   "status",
-                  "subjects",
-                  "systemNumber"
+                  "subjects"
                 ],
                 "properties": {
                   "date": {
@@ -559,8 +558,7 @@ Get a list of births. Returns an empty list on no results found
                   "location",
                   "previousRegistration",
                   "status",
-                  "subjects",
-                  "systemNumber"
+                  "subjects"
                 ],
                 "properties": {
                   "date": {
