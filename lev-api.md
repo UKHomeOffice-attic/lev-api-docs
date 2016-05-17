@@ -26,6 +26,13 @@ Get a list of births. Returns an empty list on no results found
     
     + gender: `Indeterminate` (string, optional)
 
++ Request
+    
+    + Headers
+    
+        X-Auth-Username: lev-test-client
+        X-Auth-Downstream-Username: tester
+
 + Response 200
 
     successful operation
@@ -470,6 +477,13 @@ Get a list of births. Returns an empty list on no results found
 + Parameters
 
     + id: 500152046 (required)
+
++ Request
+    
+    + Headers
+    
+        X-Auth-Username: lev-test-client
+        X-Auth-Downstream-Username: tester
 
 + Response 200
 
