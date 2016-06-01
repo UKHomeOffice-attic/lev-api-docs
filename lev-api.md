@@ -6,7 +6,10 @@ FORMAT: 1A
 
 #### Get birth events [GET /api/v0/events/birth{?forenames,forename1,forename2,forename3,forename4,lastname,dateofbirth,gender}]
 
-Get a list of births. Returns an empty list on no results found
+Get a list of births. Returns an empty list on no results found.
+
+NB: Please note you must provide either forenames or forename1. 
+The API interprets forenames into forename1, 2, 3, 4 by splitting the string on spaces
 
 + Parameters
 
