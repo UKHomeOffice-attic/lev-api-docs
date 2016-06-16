@@ -58,15 +58,15 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                 "subjects": {
                   "child": {
                     "originalName": {
-                      "givenName": "Tester",
-                      "surname": "Solo",
-                      "fullName": "Tester Solo",
-                      "qualifier": "generated from prepending forename to surname"
-                    },
-                    "name": {
                       "givenName": "Brandon",
                       "surname": "Solo",
                       "fullName": "Brandon Solo",
+                      "qualifier": "generated from prepending forename to surname"
+                    },
+                    "name": {
+                      "givenName": "Tester",
+                      "surname": "Solo",
+                      "fullName": "Tester Solo",
                       "qualifier": "generated from prepending forename to surname"
                     },
                     "dateOfBirth": "2000-02-29",
@@ -508,15 +508,15 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
           "subjects": {
             "child": {
               "originalName": {
-                "givenName": "Tester",
-                "surname": "Solo",
-                "fullName": "Tester Solo",
-                "qualifier": "generated from prepending forename to surname"
-              },
-              "name": {
                 "givenName": "Brandon",
                 "surname": "Solo",
                 "fullName": "Brandon Solo",
+                "qualifier": "generated from prepending forename to surname"
+              },
+              "name": {
+                "givenName": "Tester",
+                "surname": "Solo",
+                "fullName": "Tester Solo",
                 "qualifier": "generated from prepending forename to surname"
               },
               "dateOfBirth": "2000-02-29",
