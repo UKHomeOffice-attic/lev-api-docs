@@ -105,7 +105,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                 "date": "2014-10-10",
                 "status": {
                   "marginalNote": "None",
-                  "fictitiousBirth": false,
+                  "potentiallyFictitiousBirth": false,
                   "correction": "None",
                   "cancelled": false,
                   "blockedRegistration": false,
@@ -435,7 +435,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                           "Revoked"
                         ]
                       },
-                      "fictitiousBirth": {
+                      "potentiallyFictitiousBirth": {
                         "type": "boolean",
                         "description": "TBD, what does this mean",
                         "default": false
@@ -455,7 +455,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                       "blockedRegistration",
                       "cancelled",
                       "correction",
-                      "fictitiousBirth",
+                      "potentiallyFictitiousBirth",
                       "marginalNote",
                       "reRegistered"
                     ]
@@ -563,7 +563,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
           "date": "2014-10-10",
           "status": {
             "marginalNote": "None",
-            "fictitiousBirth": false,
+            "potentiallyFictitiousBirth": false,
             "correction": "None",
             "cancelled": false,
             "blockedRegistration": false,
@@ -891,7 +891,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                           "Revoked"
                         ]
                       },
-                      "fictitiousBirth": {
+                      "potentiallyFictitiousBirth": {
                         "type": "boolean",
                         "description": "TBD, what does this mean",
                         "default": false
@@ -911,7 +911,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                       "blockedRegistration",
                       "cancelled",
                       "correction",
-                      "fictitiousBirth",
+                      "potentiallyFictitiousBirth",
                       "marginalNote",
                       "reRegistered"
                     ]
