@@ -106,7 +106,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                 "status": {
                   "marginalNote": "None",
                   "fictitiousBirth": false,
-                  "correction": None,
+                  "correction": "None",
                   "cancelled": false,
                   "blockedRegistration": false,
                   "reRegistered": "None"
@@ -564,7 +564,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
           "status": {
             "marginalNote": "None",
             "fictitiousBirth": false,
-            "correction": None,
+            "correction": "None",
             "cancelled": false,
             "blockedRegistration": false,
             "reRegistered": "None"
