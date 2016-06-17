@@ -104,11 +104,11 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                 "id": 999999910,
                 "date": "2014-10-10",
                 "status": {
-                  "courtOrder": "None",
+                  "marginalNote": "None",
                   "fictitiousBirth": false,
+                  "correction": None,
                   "cancelled": false,
                   "blockedRegistration": false,
-                  "cautionMark": false,
                   "reRegistered": "None"
                 },
                 "previousRegistration": {
@@ -450,7 +450,15 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                           "Subsequently married"
                         ]
                       }
-                    }
+                    },
+                    "required": [
+                      "blockedRegistration",
+                      "cancelled",
+                      "correction",
+                      "fictitiousBirth",
+                      "marginalNote",
+                      "reRegistered"
+                    ]
                   },
                   "previousRegistration": {
                     "description": "Details of the previous record, where one exists",
@@ -554,11 +562,11 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
           "id": 999999910,
           "date": "2014-10-10",
           "status": {
-            "courtOrder": "None",
+            "marginalNote": "None",
             "fictitiousBirth": false,
+            "correction": None,
             "cancelled": false,
             "blockedRegistration": false,
-            "cautionMark": false,
             "reRegistered": "None"
           },
           "previousRegistration": {
@@ -898,7 +906,15 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                           "Subsequently married"
                         ]
                       }
-                    }
+                    },
+                    "required": [
+                      "blockedRegistration",
+                      "cancelled",
+                      "correction",
+                      "fictitiousBirth",
+                      "marginalNote",
+                      "reRegistered"
+                    ]
                   },
                   "previousRegistration": {
                     "description": "Details of the previous record, where one exists",
