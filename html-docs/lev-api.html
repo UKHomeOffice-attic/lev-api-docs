@@ -49,9 +49,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
         "<span class="hljs-attribute">maidenSurname</span>": <span class="hljs-value"><span class="hljs-string">"prev-Solo"</span>
       </span>}</span>,
       "<span class="hljs-attribute">informant</span>": <span class="hljs-value">{
-        "<span class="hljs-attribute">name</span>": <span class="hljs-value">{
-
-        }</span>,
+        "<span class="hljs-attribute">name</span>": <span class="hljs-value">{}</span>,
         "<span class="hljs-attribute">qualification</span>": <span class="hljs-value"><span class="hljs-string">"Mother"</span></span>,
         "<span class="hljs-attribute">signature</span>": <span class="hljs-value"><span class="hljs-string">"Mary Manzarek"</span>
       </span>}
@@ -61,15 +59,13 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
     "<span class="hljs-attribute">date</span>": <span class="hljs-value"><span class="hljs-string">"2014-10-10"</span></span>,
     "<span class="hljs-attribute">status</span>": <span class="hljs-value">{
       "<span class="hljs-attribute">marginalNote</span>": <span class="hljs-value"><span class="hljs-string">"None"</span></span>,
-      "<span class="hljs-attribute">fictitiousBirth</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
-      "<span class="hljs-attribute">correction</span>": <span class="hljs-value">None</span>,
+      "<span class="hljs-attribute">potentiallyFictitiousBirth</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
+      "<span class="hljs-attribute">correction</span>": <span class="hljs-value"><span class="hljs-string">"None"</span></span>,
       "<span class="hljs-attribute">cancelled</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
       "<span class="hljs-attribute">blockedRegistration</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
       "<span class="hljs-attribute">reRegistered</span>": <span class="hljs-value"><span class="hljs-string">"None"</span>
     </span>}</span>,
-    "<span class="hljs-attribute">previousRegistration</span>": <span class="hljs-value">{
-
-    }
+    "<span class="hljs-attribute">previousRegistration</span>": <span class="hljs-value">{}
   </span>}
 ]</code></pre><div style="height: 1px;"></div><h5>Schema</h5><pre><code>{
   "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"array"</span></span>,
@@ -387,7 +383,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
               <span class="hljs-string">"Revoked"</span>
             ]
           </span>}</span>,
-          "<span class="hljs-attribute">fictitiousBirth</span>": <span class="hljs-value">{
+          "<span class="hljs-attribute">potentiallyFictitiousBirth</span>": <span class="hljs-value">{
             "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"boolean"</span></span>,
             "<span class="hljs-attribute">description</span>": <span class="hljs-value"><span class="hljs-string">"TBD, what does this mean"</span></span>,
             "<span class="hljs-attribute">default</span>": <span class="hljs-value"><span class="hljs-literal">false</span>
@@ -407,7 +403,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
           <span class="hljs-string">"blockedRegistration"</span>,
           <span class="hljs-string">"cancelled"</span>,
           <span class="hljs-string">"correction"</span>,
-          <span class="hljs-string">"fictitiousBirth"</span>,
+          <span class="hljs-string">"potentiallyFictitiousBirth"</span>,
           <span class="hljs-string">"marginalNote"</span>,
           <span class="hljs-string">"reRegistered"</span>
         ]
@@ -478,25 +474,23 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
       "<span class="hljs-attribute">maidenSurname</span>": <span class="hljs-value"><span class="hljs-string">"prev-Solo"</span>
     </span>}</span>,
     "<span class="hljs-attribute">informant</span>": <span class="hljs-value">{
-      "<span class="hljs-attribute">name</span>": <span class="hljs-value">{
-   }</span>,
-  "<span class="hljs-attribute">qualification</span>": <span class="hljs-value"><span class="hljs-string">"Mother"</span></span>,
-  "<span class="hljs-attribute">signature</span>": <span class="hljs-value"><span class="hljs-string">"Mary Manzarek"</span>
-</span>}
+      "<span class="hljs-attribute">name</span>": <span class="hljs-value">{}</span>,
+      "<span class="hljs-attribute">qualification</span>": <span class="hljs-value"><span class="hljs-string">"Mother"</span></span>,
+      "<span class="hljs-attribute">signature</span>": <span class="hljs-value"><span class="hljs-string">"Mary Manzarek"</span>
+    </span>}
   </span>}</span>,
   "<span class="hljs-attribute">systemNumber</span>": <span class="hljs-value"><span class="hljs-number">999999910</span></span>,
   "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">999999910</span></span>,
   "<span class="hljs-attribute">date</span>": <span class="hljs-value"><span class="hljs-string">"2014-10-10"</span></span>,
   "<span class="hljs-attribute">status</span>": <span class="hljs-value">{
     "<span class="hljs-attribute">marginalNote</span>": <span class="hljs-value"><span class="hljs-string">"None"</span></span>,
-    "<span class="hljs-attribute">fictitiousBirth</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
-    "<span class="hljs-attribute">correction</span>": <span class="hljs-value">None</span>,
+    "<span class="hljs-attribute">potentiallyFictitiousBirth</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
+    "<span class="hljs-attribute">correction</span>": <span class="hljs-value"><span class="hljs-string">"None"</span></span>,
     "<span class="hljs-attribute">cancelled</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
     "<span class="hljs-attribute">blockedRegistration</span>": <span class="hljs-value"><span class="hljs-literal">false</span></span>,
     "<span class="hljs-attribute">reRegistered</span>": <span class="hljs-value"><span class="hljs-string">"None"</span>
   </span>}</span>,
-  "<span class="hljs-attribute">previousRegistration</span>": <span class="hljs-value">{
-   }
+  "<span class="hljs-attribute">previousRegistration</span>": <span class="hljs-value">{}
 </span>}</code></pre><div style="height: 1px;"></div><h5>Schema</h5><pre><code>{
   "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"object"</span></span>,
   "<span class="hljs-attribute">items</span>": <span class="hljs-value">{
@@ -813,7 +807,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
               <span class="hljs-string">"Revoked"</span>
             ]
           </span>}</span>,
-          "<span class="hljs-attribute">fictitiousBirth</span>": <span class="hljs-value">{
+          "<span class="hljs-attribute">potentiallyFictitiousBirth</span>": <span class="hljs-value">{
             "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"boolean"</span></span>,
             "<span class="hljs-attribute">description</span>": <span class="hljs-value"><span class="hljs-string">"TBD, what does this mean"</span></span>,
             "<span class="hljs-attribute">default</span>": <span class="hljs-value"><span class="hljs-literal">false</span>
@@ -833,7 +827,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
           <span class="hljs-string">"blockedRegistration"</span>,
           <span class="hljs-string">"cancelled"</span>,
           <span class="hljs-string">"correction"</span>,
-          <span class="hljs-string">"fictitiousBirth"</span>,
+          <span class="hljs-string">"potentiallyFictitiousBirth"</span>,
           <span class="hljs-string">"marginalNote"</span>,
           <span class="hljs-string">"reRegistered"</span>
         ]
@@ -857,7 +851,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
     </span>}</span>,
     "<span class="hljs-attribute">description</span>": <span class="hljs-value"><span class="hljs-string">"An event that represents a change of state"</span>
   </span>}
-</span>}</code></pre><div style="height: 1px;"></div></div></div></div></div></section></div></div></div><p style="text-align: center;" class="text-muted">Generated by&nbsp;<a href="https://github.com/danielgtaylor/aglio" class="aglio">aglio</a>&nbsp;on 17 Jun 2016</p><script>/* eslint-env browser */
+</span>}</code></pre><div style="height: 1px;"></div></div></div></div></div></section></div></div></div><p style="text-align: center;" class="text-muted">Generated by&nbsp;<a href="https://github.com/danielgtaylor/aglio" class="aglio">aglio</a>&nbsp;on 20 Jun 2016</p><script>/* eslint-env browser */
 /* eslint quotes: [2, "single"] */
 'use strict';
 
