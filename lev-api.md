@@ -90,7 +90,8 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                       "qualifier": "generated from prepending forename to surname"
                     },
                     "birthplace": "Test Birthplace",
-                    "maidenSurname": "prev-Solo"
+                    "maidenSurname": "prev-Solo",
+                    "marriageSurname": "prev-M-Solo"
                   },
                   "informant": {
                     "name": {
@@ -548,7 +549,8 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
                 "qualifier": "generated from prepending forename to surname"
               },
               "birthplace": "Test Birthplace",
-              "maidenSurname": "prev-Solo"
+              "maidenSurname": "prev-Solo",
+              "marriageSurname": "prev-M-Solo"
             },
             "informant": {
               "name": {
