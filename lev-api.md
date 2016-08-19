@@ -25,7 +25,7 @@ The API interprets forenames into forename1, 2, 3, 4 by splitting the string on 
     
     + forename4: (string, optional)
     
-    + dateofbirth: `2011-08-08` (string, optional)
+    + dateofbirth: `2011-08-08` (string, required)
     
     + gender: `Indeterminate` (string, optional)
 
