@@ -2,6 +2,9 @@ FORMAT: 1A
 
 # Life Events API
 
+## TLS Version
+The API uses HTTPS with TLS V1.2
+
 ## Group apiv0events
 
 #### Get birth events [GET /api/v0/events/birth{?forenames,forename1,forename2,forename3,forename4,lastname,dateofbirth,gender}]
