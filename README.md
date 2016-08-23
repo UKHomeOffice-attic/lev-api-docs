@@ -75,15 +75,9 @@ Open the report.html file that is generated after running the tests
 ## Generating a nice HTML version of the documentation
 There is a git hook to update the html version of the documentation on commit.
 
-### Pre-requisites
-aglio is required (though will also be installed in node_modules directory if needed)
-```bash
-npm install -g aglio
-```
-
 ### Generating html docs manually
 ```bash
-aglio/bin/aglio.js -i lev-api.md -o lev-api.html
+./node_modules/.bin/aglio -i lev-api.md -o html-docs/lev-api.html
 ```
 
 ## Contributing
