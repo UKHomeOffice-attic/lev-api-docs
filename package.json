@@ -2,8 +2,8 @@
   "name": "docs",
   "version": "1.0.0",
   "scripts": {
-    "start": "drakov -f lev-api.md -p 8080 --discover --stealthmode",
-    "stop": "fuser -k 8080/tcp"
+    "start": "drakov -f lev-api.md -p 8080 --discover --stealthmode; exit 0",
+    "stop": "fuser -k 8080/tcp; exit 0"
   },
   "dependencies": {
     "aglio": "^2.2.0",
