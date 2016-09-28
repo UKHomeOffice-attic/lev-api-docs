@@ -1,15 +1,15 @@
 {
-  "uuid" : "cf256922-5c23-3231-b984-7a91069a86d5",
+  "uuid" : "2424eba0-4dcd-3631-bc59-dcc5a329a485",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-zfQDa.txt",
+    "bodyFileName" : "body-(root)-sHNtQ.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 28 Sep 2016 15:32:34 GMT",
+      "Date" : "Wed, 28 Sep 2016 15:34:47 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
