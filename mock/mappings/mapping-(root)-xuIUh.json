@@ -1,0 +1,17 @@
+{
+  "uuid" : "d78312b2-71c3-373c-b9e1-4fdfa5affb10",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-(root)-xuIUh.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Wed, 28 Sep 2016 11:57:08 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

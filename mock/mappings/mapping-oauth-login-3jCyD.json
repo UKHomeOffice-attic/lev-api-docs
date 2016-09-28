@@ -1,0 +1,24 @@
+{
+  "uuid" : "415d0c94-fe8a-3e68-b91a-a5227076c678",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=lev-web&password=qbSAhEwUkL2AarwkdT8waLISK"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-oauth-login-3jCyD.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Wed, 28 Sep 2016 13:15:09 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept-Encoding", "Accept-Encoding" ],
+      "Access-Control-Allow-Origin" : "*",
+      "Set-Cookie" : "kc-access=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiIwZmI0NWMxNy04MjgxLTQ0MTItODk0NC0xZTYwYTRhMTNlMjAiLCJleHAiOjE0NzUwNjg4MDksIm5iZiI6MCwiaWF0IjoxNDc1MDY4NTA5LCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiIxNWU1YTA0OS00ODJhLTRlMjUtYjY5Zi05MGZkM2FhNjNhYWYiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiIxZjljODJmMS02NzQ0LTRhNGUtYjEwZS1kMjlmMjJlNGIxNTQiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.PHGjnR2W4kekmqpTDuB0kil10gGZV1gXs_uga_ljUAw4PyGi58wBftTtnE-7aiM-oj51qafRP5BdT43EyWbNhKGQlgXCYMmb_GFRlmL6_i-lPRcW9WQClZbhFUcwOx40i-tlbANpds6PWgJ9TRaE3334_qfP_Ig9o66EGKqNmYxUSmDNouEkroyalUouHzfkFg3jiGF2QDZmG1MSOFBCNwZ3xUkUD0CWt06rZQulL0i_-tR4tT5BfpvihFq9pVW_WWiU0t7HtiWOsc2bW2g4qoGRYAWRkIlzKWcSSQZ45hAv1emK86740XTgccFIcJTx2JMTLKUSGmoKcqNyT5bT2w; Path=/; Domain=lev-api-dev.notprod.homeoffice.gov.uk; Expires=Wed, 28 Sep 2016 13:20:09 GMT; Secure"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "uuid" : "20c2b5cc-b6bf-3d02-80ab-191e99df5425",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=a-username"
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-oauth-login-Nz1mR.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Tue, 27 Sep 2016 18:30:14 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive",
+      "Access-Control-Allow-Origin" : "*"
+    }
+  }
+}

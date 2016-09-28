@@ -1,0 +1,17 @@
+{
+  "uuid" : "2c994c56-d728-3525-b593-f2005e246467",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-(root)-iPozv.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Tue, 27 Sep 2016 18:30:14 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

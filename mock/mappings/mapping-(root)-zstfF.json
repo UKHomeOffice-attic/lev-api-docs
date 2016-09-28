@@ -1,0 +1,17 @@
+{
+  "uuid" : "97ebb25b-53ac-39e6-9f16-09a34bc0c723",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-(root)-zstfF.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Wed, 28 Sep 2016 13:03:26 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

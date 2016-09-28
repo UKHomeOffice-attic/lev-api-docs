@@ -2,9 +2,8 @@
 ----
 HTTP/1.1 400 Bad Request
 Server: openresty
-Date: Mon, 26 Sep 2016 10:05:04 GMT
+Date: Tue, 27 Sep 2016 18:59:19 GMT
 Content-Type: text/plain; charset=UTF-8
 Access-Control-Allow-Origin: *
-Transfer-Encoding: chunked
 
 ----

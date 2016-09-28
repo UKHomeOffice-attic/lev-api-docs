@@ -1,0 +1,21 @@
+{
+  "uuid" : "195a36b6-242a-3886-9daa-4b80bcdc457a",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=a-username"
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-oauth-login-Cc3hd.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Wed, 28 Sep 2016 13:13:41 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive",
+      "Access-Control-Allow-Origin" : "*"
+    }
+  }
+}
