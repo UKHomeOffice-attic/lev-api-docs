@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'https://lev-api-dev.notprod.homeoffice.gov.uk/' -i -H 'Accept: */*'
-----

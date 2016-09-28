@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http GET 'https://lev-api-dev.notprod.homeoffice.gov.uk/' 'Accept:*/*'
-----

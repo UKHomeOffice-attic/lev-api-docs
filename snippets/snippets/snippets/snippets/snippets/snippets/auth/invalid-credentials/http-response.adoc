@@ -1,9 +1,0 @@
-[source,http,options="nowrap"]
-----
-HTTP/1.1 401 Unauthorized
-Server: openresty
-Date: Wed, 28 Sep 2016 12:02:32 GMT
-Content-Type: text/plain; charset=UTF-8
-Access-Control-Allow-Origin: *
-
-----

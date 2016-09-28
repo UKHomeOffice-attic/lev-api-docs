@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ http --form POST 'http://localhost:8080/oauth/login' 'Accept:*/*' 'Content-Type:application/x-www-form-urlencoded; charset=ISO-8859-1' 'username=a-username'
-----
