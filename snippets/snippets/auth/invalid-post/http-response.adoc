@@ -1,0 +1,9 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 400 Bad Request
+Server: openresty
+Date: Wed, 28 Sep 2016 11:47:36 GMT
+Content-Type: text/plain; charset=UTF-8
+Access-Control-Allow-Origin: *
+
+----

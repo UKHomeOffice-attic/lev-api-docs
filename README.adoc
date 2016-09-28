@@ -1,0 +1,42 @@
+Life Event Verification (LEV) API Consumer Guide
+================================================
+:toc:
+:numbered:
+
+== An important note
+The contents of the lev-api-docs repo is automatically generated so please don't make changes directly to this repo!
+
+== Mock API
+It is possible to run a mock version of the API as follows:
+
+=== Running a mock API with docker
+The easiest way to run the mock API is with Docker
+```
+./mock/run_mock_api_docker.sh
+```
+
+=== Running a mock API without docker
+It is also possible to run it without docker if you have the wiremock jar file:
+```
+cd mock
+java -jar wiremock.jar --port=8080
+```
+
+== Authenticating yourself with the API
+
+To use the API you will need to provide 2 forms of authentication:
+. A client certificate
+. An auth token, which must be obtained by hitting the /oauth/login endpoint
+
+*NB: The client certificate must be included in every request, but is NOT shown in this documentation.*
+
+The following examples are provided to help troubleshoot any issues:
+
+=== Valid request with correct credentials
+*Example request with curl*
+include::snippets/auth/valid-auth/curl-request.adoc[]
+
+*Example response*
+include::snippets/auth/valid-auth/http-response.adoc[]
+
+
