@@ -3,6 +3,9 @@ Life Event Verification (LEV) API Consumer Guide
 :toc:
 :numbered:
 
+== This is a work in progress!
+In the meantime please refer to the original docs at https://github.com/UKHomeOffice/lev-api-docs/blob/master/README.md
+
 == An important note
 The contents of the lev-api-docs repo is automatically generated so please don't make changes directly to this repo!
 
