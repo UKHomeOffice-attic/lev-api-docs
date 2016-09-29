@@ -1,15 +1,15 @@
 {
-  "uuid" : "39608a89-ce8d-3d77-8f6b-f076fd6117df",
+  "uuid" : "30846258-78dd-325f-bd54-f7f769ee807d",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-HivRN.txt",
+    "bodyFileName" : "body-(root)-R9uuR.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 28 Sep 2016 15:57:36 GMT",
+      "Date" : "Thu, 29 Sep 2016 10:21:37 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
