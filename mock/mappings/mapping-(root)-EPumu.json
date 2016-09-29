@@ -1,15 +1,15 @@
 {
-  "uuid" : "30846258-78dd-325f-bd54-f7f769ee807d",
+  "uuid" : "8f689e78-993d-3bda-aa95-6001848b306f",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-R9uuR.txt",
+    "bodyFileName" : "body-(root)-EPumu.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Thu, 29 Sep 2016 10:21:37 GMT",
+      "Date" : "Thu, 29 Sep 2016 11:15:24 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }

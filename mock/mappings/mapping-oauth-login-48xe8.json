@@ -1,18 +1,18 @@
 {
-  "uuid" : "542a14f4-5fc8-399e-a928-35da634236b0",
+  "uuid" : "f03fb019-4dbd-34f8-a821-07ba15d6865c",
   "request" : {
     "url" : "/oauth/login",
     "method" : "POST",
     "bodyPatterns" : [ {
-      "equalTo" : "username=a-username"
+      "equalTo" : "username=invalid-username&password=invalid-password"
     } ]
   },
   "response" : {
-    "status" : 400,
-    "bodyFileName" : "body-oauth-login-viDH8.txt",
+    "status" : 401,
+    "bodyFileName" : "body-oauth-login-48xe8.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Thu, 29 Sep 2016 10:21:38 GMT",
+      "Date" : "Thu, 29 Sep 2016 11:15:24 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive",
       "Access-Control-Allow-Origin" : "*"
