@@ -1,5 +1,6 @@
 = Life Event Verification (LEV) API Guide
 :toc:
+:numbered:
 :toc-placement!:
 
 toc::[]
