@@ -1,9 +1,7 @@
 = Life Event Verification (LEV) API Guide
 :toc:
 :numbered:
-:toc-placement!:
-
-toc::[]
+:toc-placement: preamble
 
 == This is a work in progress!
 In the meantime please refer to the original docs at https://github.com/UKHomeOffice/lev-api-docs/blob/master/README.md
