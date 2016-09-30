@@ -1,7 +1,8 @@
-Life Event Verification (LEV) API Guide
-=======================================
+= Life Event Verification (LEV) API Guide
 :toc:
-:toc-placement: preamble
+:toc-placement!:
+
+toc::[]
 
 == This is a work in progress!
 In the meantime please refer to the original docs at https://github.com/UKHomeOffice/lev-api-docs/blob/master/README.md
