@@ -1,0 +1,26 @@
+{
+  "uuid" : "fc8272c3-9a49-3c0d-9a34-ac95339a4b42",
+  "request" : {
+    "url" : "/api/v0/events/birth/999999999",
+    "method" : "POST",
+    "headers" : {
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    },
+    "bodyPatterns" : [ {
+      "equalTo" : "anyparam=woohoo"
+    } ]
+  },
+  "response" : {
+    "status" : 405,
+    "bodyFileName" : "body-birth-999999999-OmZqQ.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Fri, 30 Sep 2016 14:29:45 GMT",
+      "Content-Type" : "text/plain; charset=UTF-8",
+      "Connection" : "keep-alive",
+      "Allow" : "GET"
+    }
+  }
+}

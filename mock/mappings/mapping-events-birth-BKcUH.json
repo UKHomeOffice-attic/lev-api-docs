@@ -1,0 +1,23 @@
+{
+  "uuid" : "54b5ed47-a4b9-30c7-bce3-e2c49946e9e2",
+  "request" : {
+    "url" : "/api/v0/events/birth?forenames=Imnothere&lastname=nope&dateofbirth=2013-02-29",
+    "method" : "GET",
+    "headers" : {
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 500,
+    "bodyFileName" : "body-events-birth-BKcUH.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Fri, 30 Sep 2016 14:29:46 GMT",
+      "Content-Type" : "text/html",
+      "Connection" : "close",
+      "ETag" : "\"57b766eb-219\""
+    }
+  }
+}

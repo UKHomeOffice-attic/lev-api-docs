@@ -1,0 +1,22 @@
+{
+  "uuid" : "888e639d-27f5-3245-a718-a33774965157",
+  "request" : {
+    "url" : "/api/v0/events/birth?lastname=nope&dateofbirth=2013-01-01",
+    "method" : "GET",
+    "headers" : {
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-events-birth-0sQTL.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Fri, 30 Sep 2016 14:29:46 GMT",
+      "Content-Type" : "text/plain; charset=UTF-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

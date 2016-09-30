@@ -1,0 +1,24 @@
+{
+  "uuid" : "c9773813-afe9-3c6c-baef-4baae2c69f51",
+  "request" : {
+    "url" : "/api/v0/events/birth/999999910",
+    "method" : "GET",
+    "headers" : {
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-birth-999999910-lwQUC.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Fri, 30 Sep 2016 14:29:46 GMT",
+      "Content-Type" : "application/json; charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept-Encoding", "Accept-Encoding" ]
+    }
+  }
+}

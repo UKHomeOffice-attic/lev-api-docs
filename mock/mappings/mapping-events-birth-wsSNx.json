@@ -1,0 +1,24 @@
+{
+  "uuid" : "63d5311a-f459-359d-b77f-967fbabfa4d5",
+  "request" : {
+    "url" : "/api/v0/events/birth?forenames=Tester&lastname=Multiple&dateofbirth=2010-01-01",
+    "method" : "GET",
+    "headers" : {
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-events-birth-wsSNx.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Fri, 30 Sep 2016 14:29:46 GMT",
+      "Content-Type" : "application/json; charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept-Encoding", "Accept-Encoding" ]
+    }
+  }
+}

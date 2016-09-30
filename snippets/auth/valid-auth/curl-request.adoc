@@ -1,4 +1,4 @@
 [source,bash]
 ----
-$ curl 'http://localhost:8080/oauth/login' -i -X POST -H 'Accept: */*' -H 'Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1' -d 'username=xxxxx&password=xxxxx'
+$ curl 'http://localhost:8080/oauth/login' -i -X POST -H 'Accept: */*' -H 'Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1' -d 'username=exampleuser&password=xxxxx'
 ----
