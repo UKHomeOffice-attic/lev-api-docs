@@ -1,15 +1,15 @@
 {
-  "uuid" : "96f1852e-4db6-35ae-a1cd-613a82b1fa24",
+  "uuid" : "f2e05e14-0eb2-3748-bb9c-232ae7ffc5cf",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-4S3Lq.txt",
+    "bodyFileName" : "body-(root)-CjkJs.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Fri, 30 Sep 2016 14:29:45 GMT",
+      "Date" : "Mon, 03 Oct 2016 10:06:20 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }

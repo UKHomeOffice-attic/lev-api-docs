@@ -35,11 +35,67 @@ To use the API you will need to provide 2 forms of authentication:
 
 The following examples are provided to help troubleshoot any issues:
 
-=== Valid request with correct credentials
-*Example request with curl*
+=== Valid request with credentials
+*Example request with dummy credentials using curl*
 include::snippets/auth/valid-auth/curl-request.adoc[]
 
 *Example response*
 include::snippets/auth/valid-auth/http-response.adoc[]
+
+== Requesting birth record data
+
+=== Requesting a specific birth record using a System Number
+
+The best way to get birth data is by providing the relevant System Number, a nine digit unique identifier for the birth record.
+
+*Example request specifying a System Number using curl*
+include::snippets/system-number/matching-record-999999901/curl-request.adoc[]
+
+*Example response* is a JSON object containing the birth record data
+include::snippets/system-number/matching-record-999999901/http-response.adoc[]
+
+=== Searching for a birth record
+
+When the System Number of the birth record is not known, a search of the records can be made by supplying the following three parameters in the URL query string:
+
+- `forenames` : the first name is mandatory, and can be accompanied by any middle names (all separated by spaces)
+- `lastname` : the last name is mandatory
+- `dateofbirth` : the date of birth is also mandatory
+
+*Example request with search parameters using curl*
+include::snippets/search/multiple-matching-record/curl-request.adoc[]
+
+*Example response* is a JSON array containing three matching birth records
+include::snippets/search/multiple-matching-record/http-response.adoc[]
+
+TIP: The API will only return at most *25* matching records. In the unlikely case where there might be more than 25 people with the same first name, last name, and date of birth; you will have to add middle names to the query to make the search more exacting.
+
+=== When no matching records are found
+
+If no records matching the search terms can be found, the API will return an empty array.
+
+*Example request*
+include::snippets/search/no-matches/curl-request.adoc[]
+
+*Example response*
+include::snippets/search/no-matches/http-response.adoc[]
+
+== Common errors and responses
+
+=== 404 - Not found
+
+Making a request to an unsupported end point will result in the standard 404 not found error.
+
+=== Missing search parameters
+
+Missing search parameters will result in a standard 400 bad request error.
+
+*Example request missing with missing the `forenames` parameter*
+include::snippets/search/no-forenames/curl-request.adoc[]
+
+*Example response detailing the error*
+include::snippets/search/no-forenames/http-response.adoc[]
+
+
 
 
