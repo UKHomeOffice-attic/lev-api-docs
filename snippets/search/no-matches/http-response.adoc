@@ -2,8 +2,11 @@
 ----
 HTTP/1.1 200 OK
 Server: openresty
-Date: Mon, 03 Oct 2016 10:44:55 GMT
+Date: Tue, 04 Oct 2016 15:10:43 GMT
 Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+Vary: Accept-Encoding, User-Agent
+Transfer-Encoding: chunked
 Content-Length: 2
 
 []
