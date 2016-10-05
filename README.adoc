@@ -3,43 +3,425 @@ Life Event Verification (LEV) API Guide
 :toc:
 :numbered:
 
-== This is a work in progress!
-In the meantime please refer to the original docs at https://github.com/UKHomeOffice/lev-api-docs/blob/master/README.md
+[role=hideable]
+NOTE: This documentation is limited by GitHub's version of ASCII Docs, the full
+version may be viewed in the docs repo: https://ukhomeoffice.github.io/lev-api-docs
 
-== An important note
-The contents of the lev-api-docs repo is automatically generated so please don't make changes directly to this repo!
+[IMPORTANT,role=unhideable]
+====
+The contents of this repo are automatically generated; to make changes
+follow these steps:
+
+. `git clone https://gitlab.digital.homeoffice.gov.uk/lev/lev-api-scala`
+. edit the `lev-api-scala/docs/README.adoc` file
+. `commit` and `push` your changes (to a new branch)
+. create a *merge request* detailing the changes
+. upon successful approval of the merge request the changes will be automatically added
+to the `lev-api-docs` repo
+====
 
 == Mock API
 It is possible to run a mock version of the API as follows:
 
 === Running a mock API with docker
+[role=hideable]
+NOTE: The paths in this section refer to the root of the docs project:
+https://github.com/UKHomeOffice/lev-api-docs
+
 The easiest way to run the mock API is with Docker
 ```
 ./mock/run_mock_api_docker.sh
 ```
 
 === Running a mock API without docker
-It is also possible to run it without docker if you have the wiremock jar file:
+It is also possible to run it without docker if you have the *wiremock* jar file:
 ```
 cd mock
 java -jar wiremock.jar --port=8080
 ```
 
-== Authenticating yourself with the API
-
+== Authenticating with the API
 To use the API you will need to provide 2 forms of authentication:
+
 . A client certificate
-. An auth token, which must be obtained by hitting the /oauth/login endpoint
+. An auth token, which must be obtained by hitting the `/oauth/login` endpoint
 
-*NB: The client certificate must be included in every request, but is NOT shown in this documentation.*
+[IMPORTANT]
+====
+*The client certificate must be included in every request to the API, but is NOT shown
+in this documentation for simplicity.*
 
-The following examples are provided to help troubleshoot any issues:
+Adding a client certificate to a `curl` request can easily be achieved by adding the
+following arguments:
 
-=== Valid request with correct credentials
-*Example request with curl*
+[source,bash]
+----
+curl --cert-type pem --key client.key --cert client.crt ...
+----
+====
+
+NOTE: The client certificate is not needed when sending requests to the _mock API_.
+
+The rest of this section contains examples which have been provided to help
+troubleshoot issues with authentication.
+
+=== A successful request with valid credentials
++++ <details><summary> +++
+*Example `curl` request* with dummy credentials
++++ </summary><div> +++
 include::snippets/auth/valid-auth/curl-request.adoc[]
++++ </div></details> +++
 
-*Example response*
++++ <details><summary> +++
+*Example `HTTP` request* with dummy credentials
++++ </summary><div> +++
+include::snippets/auth/valid-auth/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* containing the *access token*
++++ </summary><div> +++
 include::snippets/auth/valid-auth/http-response.adoc[]
++++ </div></details> +++
 
+=== Authentication problems
+Generally authentication problems are reported as `401 Unauthorized` errors.
 
+==== A request with invalid credentials
++++ <details><summary> +++
+*Example `curl` request* with invalid credentials
++++ </summary><div> +++
+include::snippets/auth/invalid-credentials/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* with invalid credentials
++++ </summary><div> +++
+include::snippets/auth/invalid-credentials/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/auth/invalid-credentials/http-response.adoc[]
++++ </div></details> +++
+
+==== An unauthorised request
++++ <details><summary> +++
+*Example `curl` request* without the required `Authorization` header
++++ </summary><div> +++
+include::snippets/auth/unauthorized/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* without the required `Authorization` header
++++ </summary><div> +++
+include::snippets/auth/unauthorized/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/auth/unauthorized/http-response.adoc[]
++++ </div></details> +++
+
+==== A request with missing credentials
++++ <details><summary> +++
+*Example `curl` request* without the required `password` parameter
++++ </summary><div> +++
+include::snippets/auth/invalid-post/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* without the required `password` parameter
++++ </summary><div> +++
+include::snippets/auth/invalid-post/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/auth/invalid-post/http-response.adoc[]
++++ </div></details> +++
+
+==== A request with no client certificate
+Whilst none of the examples here contain the required client certificate, this example
+has been explicitly included to show how the resulting `403 Forbidden` error would
+look.
++++ <details><summary> +++
+*Example `curl` request* without the required client certificate
++++ </summary><div> +++
+include::snippets/auth/no-client-cert/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* without the required client certificate
++++ </summary><div> +++
+include::snippets/auth/no-client-cert/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/auth/no-client-cert/http-response.adoc[]
++++ </div></details> +++
+
+== Requesting birth record data
+All successful requests to the API will result in a `200 OK` HTTP status code and are
+described in this section.
+
+=== Requesting a specific birth record using a System Number
+The best way to get birth data is by providing the relevant System Number, a nine
+digit unique identifier for the birth record.
+
++++ <details><summary> +++
+*Example `curl` request* specifying a *System Number*
++++ </summary><div> +++
+include::snippets/system-number/matching-record-999999901/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* specifying a *System Number*
++++ </summary><div> +++
+include::snippets/system-number/matching-record-999999901/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* is a *JSON object* containing the birth record data
++++ </summary><div> +++
+include::snippets/system-number/matching-record-999999901/http-response.adoc[]
++++ </div></details> +++
+
+=== Searching for a birth record
+When the System Number of the birth record is not known, a search of the records can
+be made by supplying the following three parameters in the URL query string:
+
+- `forenames` : the first name is mandatory, and can be accompanied by any middle
+names (all separated by spaces)
+- `lastname` : the last name is mandatory
+- `dateofbirth` : the date of birth is also mandatory
+
++++ <details><summary> +++
+*Example `curl` request* with search parameters
++++ </summary><div> +++
+include::snippets/search/multiple-matching-record/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* with search parameters
++++ </summary><div> +++
+include::snippets/search/multiple-matching-record/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* is a *JSON array* containing three matching birth records
++++ </summary><div> +++
+include::snippets/search/multiple-matching-record/http-response.adoc[]
++++ </div></details> +++
+
+TIP: The API will only return at most *25* matching records. In the unlikely case
+where there might be more than 25 people with the same first name, last name, and
+date of birth; you will have to add middle names to the query to make the search more
+exacting.
+
+=== When no matching records are found
+If no records matching the search terms can be found, the API will return an empty
+array.
+
++++ <details><summary> +++
+*Example `curl` request*
++++ </summary><div> +++
+include::snippets/search/no-matches/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request*
++++ </summary><div> +++
+include::snippets/search/no-matches/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* is an *empty JSON array*
++++ </summary><div> +++
+include::snippets/search/no-matches/http-response.adoc[]
++++ </div></details> +++
+
+== Common errors and responses
+
+=== Non-existent route
+Making a request to an invalid end point will result in the standard `404 Not Found`
+error.
+
+==== Requesting an endpoint that doesn't exist
++++ <details><summary> +++
+*Example `curl` request* to an invalid endpoint
++++ </summary><div> +++
+include::snippets/invalid-endpoint/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* to an invalid endpoint
++++ </summary><div> +++
+include::snippets/invalid-endpoint/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/invalid-endpoint/http-response.adoc[]
++++ </div></details> +++
+
+==== Specifying a System Number that doesn't exist
++++ <details><summary> +++
+*Example `curl` request* with a non-existing System Number
++++ </summary><div> +++
+include::snippets/system-number/no-record/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* with a non-existing System Number
++++ </summary><div> +++
+include::snippets/system-number/no-record/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/system-number/no-record/http-response.adoc[]
++++ </div></details> +++
+
+=== Missing search parameters
+Missing search parameters will result in a standard `400 Bad Request` error.
+
+==== Missing forenames parameter
++++ <details><summary> +++
+*Example `curl` request* without the `forenames` parameter
++++ </summary><div> +++
+include::snippets/search/no-forenames/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* without the `forenames` parameter
++++ </summary><div> +++
+include::snippets/search/no-forenames/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/search/no-forenames/http-response.adoc[]
++++ </div></details> +++
+
+==== Missing last name parameter
++++ <details><summary> +++
+*Example `curl` request* without the `lastname` parameter
++++ </summary><div> +++
+include::snippets/search/no-lastname/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* without the `lastname` parameter
++++ </summary><div> +++
+include::snippets/search/no-lastname/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/search/no-lastname/http-response.adoc[]
++++ </div></details> +++
+
+==== Missing date of birth parameter
++++ <details><summary> +++
+*Example `curl` request* without the required `dateofbirth` parameter
++++ </summary><div> +++
+include::snippets/search/no-dob/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* without the required `dateofbirth` parameter
++++ </summary><div> +++
+include::snippets/search/no-dob/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/search/no-dob/http-response.adoc[]
++++ </div></details> +++
+
+=== Other request errors
+
+==== Invalid date of birth provided
++++ <details><summary> +++
+*Example `curl` request* with an incorrect `dateofbirth` parameter
++++ </summary><div> +++
+include::snippets/search/invalid-dob/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* with an incorrect `dateofbirth` parameter
++++ </summary><div> +++
+include::snippets/search/invalid-dob/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/search/invalid-dob/http-response.adoc[]
++++ </div></details> +++
+
+NOTE: Currently the response status is `500 Internal Server Error`; this is not the
+intention and will be fixed in a future release to show the proper `400 Bad Request`
+instead.
+
+==== Incorrectly providing forenames
+The easiest way to provide forenames is using the `forenames` parameter, however
+forenames may alternatively be provided using the numbered version: `forename1`,
+`forename2`, `forename3`, and `forenames4`. Providing a mix of the forename parameters
+will result in a standard `400 Bad Request` error.
++++ <details><summary> +++
+*Example `curl` request* with both `forenames` and `forename1` parameters
++++ </summary><div> +++
+include::snippets/search/forenames-and-forename1/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* with both `forenames` and `forename1` parameters
++++ </summary><div> +++
+include::snippets/search/forenames-and-forename1/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/search/forenames-and-forename1/http-response.adoc[]
++++ </div></details> +++
+
+NOTE: The use of `forename1`, `forename2`, `forename3`, and `forename4` is strongly
+discouraged and should be considered deprecated in favour of the `forenames` parameter.
+
+++++
+<script>
+    if ((location.host||location.hostname) === 'ukhomeoffice.github.io') {
+        Array.prototype.forEach.call(
+            document.querySelectorAll('.hideable'),
+            l => l.style.display='none'
+        );
+    } else {
+        Array.prototype.forEach.call(
+            document.querySelectorAll('.unhideable'),
+            l => l.style.display='none'
+        );
+    }
+</script>
+<style>
+    summary:after {
+        content: "[+]";
+        right: 0px;
+    }
+    details[open] summary:after {
+        content: "[-]";
+    }
+</style>
+++++

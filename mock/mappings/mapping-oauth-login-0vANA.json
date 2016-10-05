@@ -1,5 +1,5 @@
 {
-  "uuid" : "5a03263b-ede6-3deb-84cd-b596bc837253",
+  "uuid" : "ac39636e-3aa0-3133-a1f4-52ef6a73b6cf",
   "request" : {
     "url" : "/oauth/login",
     "method" : "POST",
@@ -9,10 +9,10 @@
   },
   "response" : {
     "status" : 400,
-    "bodyFileName" : "body-oauth-login-Zs9WT.txt",
+    "bodyFileName" : "body-oauth-login-0vANA.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Tue, 04 Oct 2016 15:10:42 GMT",
+      "Date" : "Wed, 05 Oct 2016 09:49:08 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive",
       "Access-Control-Allow-Origin" : "*"
