@@ -1,15 +1,15 @@
 {
-  "uuid" : "117bed3a-1768-308f-a742-ef6da60178b3",
+  "uuid" : "b95bcf11-8e31-31bb-ae42-8cad97c03c5e",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-3IMnz.txt",
+    "bodyFileName" : "body-(root)-3l6Yp.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 05 Oct 2016 09:49:10 GMT",
+      "Date" : "Fri, 07 Oct 2016 15:42:07 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
