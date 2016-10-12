@@ -2,7 +2,7 @@
 ----
 HTTP/1.1 500 Internal Server Error
 Server: openresty
-Date: Fri, 07 Oct 2016 15:42:09 GMT
+Date: Wed, 12 Oct 2016 12:15:49 GMT
 Content-Type: text/html
 Connection: close
 Content-Length: 537
@@ -20,7 +20,7 @@ Content-Length: 537
 </style>
 </head>
 <body>
-<h1>An error occurred.</h1>
+<h1>An error occurred</h1>
 <p>Sorry, the page you are looking for is currently unavailable.<br/>
 Please try again later.</p>
 <p>If you are the system administrator of this resource then you should check
@@ -28,5 +28,6 @@ the <a href="http://nginx.org/r/error_log">error log</a> for details.</p>
 <p><em>Faithfully yours, nginx.</em></p>
 </body>
 </html>
+
 
 ----
