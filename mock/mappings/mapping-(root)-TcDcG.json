@@ -1,15 +1,15 @@
 {
-  "uuid" : "959f10da-af7b-336b-99d8-de1d46226535",
+  "uuid" : "45bb0fe7-6ea6-3e91-9c54-7913dba0743c",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-CuTBg.txt",
+    "bodyFileName" : "body-(root)-TcDcG.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 12 Oct 2016 12:15:48 GMT",
+      "Date" : "Fri, 14 Oct 2016 13:09:59 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
