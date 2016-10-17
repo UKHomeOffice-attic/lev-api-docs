@@ -1,15 +1,15 @@
 {
-  "uuid" : "41ead848-c119-3eef-a8e8-b982fe2a06ae",
+  "uuid" : "45bb0fe7-6ea6-3e91-9c54-7913dba0743c",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-l9XAk.txt",
+    "bodyFileName" : "body-(root)-TcDcG.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 17 Oct 2016 12:14:40 GMT",
+      "Date" : "Fri, 14 Oct 2016 13:09:59 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
