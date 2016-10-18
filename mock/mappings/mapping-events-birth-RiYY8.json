@@ -1,0 +1,26 @@
+{
+  "uuid" : "7683d840-2e54-3b48-9753-3e1108db6aa9",
+  "request" : {
+    "url" : "/api/v0/events/birth?forenames=Imnothere&lastname=nope&dateofbirth=2013-02-29",
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiI1MDc2YWYyZS1mMjU4LTQxYTYtYWMxNi0wMjFmMTQ2NTFkZTciLCJleHAiOjE0NzY3ODM1ODAsIm5iZiI6MCwiaWF0IjoxNDc2NzgzMjgwLCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI5NmNlNWRiYS04MTZmLTRlMTQtOTYzYy0wZmM4YTI2NDA2ZDYiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiIyMDE5MjIyYS1iYTAxLTQ1ZTEtOWE5NS1mZWMwNzVhMGY5NjUiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.T776PuIofudzvgenACJTLu58qz_npyY_jj-YXHmchzEvvl2KkUIOXN-2D4I5D2BBmcR_GcMrm5yCfC9gne-w4n6wpQIpW4L0w40qwLvfBQNpkYgwJDPSSXtuKTm9zFAf8TvlZXAWFCwsR5h2j9sXAvbwbAT-IVHUs-yqHsVi9KZ6Q79cfsyffpM2q4PZ_JbqrjBJdck9lKhIAROEneW_8u6fkNde1Rw3xc5nfw4j0opi9-qxB490XOvucba1EdrdoUgvkpcW0R1qD3axlifbr-Y8lTLqshT-MbGHyA_GOgknnSpAdqMh9GNmSXGvDLk1ggusg-qYQE7wIl-mPAHcdQ"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 500,
+    "bodyFileName" : "body-events-birth-RiYY8.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Tue, 18 Oct 2016 09:34:46 GMT",
+      "Content-Type" : "text/html",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "close"
+    }
+  }
+}
