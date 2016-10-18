@@ -1,15 +1,15 @@
 {
-  "uuid" : "15e7e35e-27fe-30db-afa5-fd115535dd54",
+  "uuid" : "aee6e488-c54a-34fb-a043-977e2732a708",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-oYdBe.txt",
+    "bodyFileName" : "body-(root)-oJH3C.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Tue, 18 Oct 2016 17:29:56 GMT",
+      "Date" : "Tue, 18 Oct 2016 22:06:01 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
