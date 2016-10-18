@@ -1,15 +1,15 @@
 {
-  "uuid" : "4b8469d7-ed06-3fe0-aa5b-1c84563037b7",
+  "uuid" : "98982a5e-e709-31af-bfb7-51b45a93db9a",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-IiRVj.txt",
+    "bodyFileName" : "body-(root)-Ubb4G.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Tue, 18 Oct 2016 11:04:04 GMT",
+      "Date" : "Tue, 18 Oct 2016 16:33:53 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
