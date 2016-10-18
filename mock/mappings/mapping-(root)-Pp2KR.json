@@ -1,15 +1,15 @@
 {
-  "uuid" : "aee6e488-c54a-34fb-a043-977e2732a708",
+  "uuid" : "d0d24a91-8266-3ca8-a082-2b2596576f1a",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-oJH3C.txt",
+    "bodyFileName" : "body-(root)-Pp2KR.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Tue, 18 Oct 2016 22:06:01 GMT",
+      "Date" : "Tue, 18 Oct 2016 22:14:31 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
