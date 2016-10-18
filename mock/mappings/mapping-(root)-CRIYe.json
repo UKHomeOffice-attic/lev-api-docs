@@ -1,15 +1,15 @@
 {
-  "uuid" : "700b3a76-087d-3d75-acec-51d731eb34ce",
+  "uuid" : "3b37b12c-80bd-3a90-89f9-38bd06766d0b",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-i09X7.txt",
+    "bodyFileName" : "body-(root)-CRIYe.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Tue, 18 Oct 2016 22:54:11 GMT",
+      "Date" : "Tue, 18 Oct 2016 23:44:03 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
