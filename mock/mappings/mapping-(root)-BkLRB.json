@@ -1,15 +1,15 @@
 {
-  "uuid" : "98f7dd69-b490-3c40-a1d4-587675ad7565",
+  "uuid" : "8c80258e-53c2-382c-92a2-82f6474175d9",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-tJiZD.txt",
+    "bodyFileName" : "body-(root)-BkLRB.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 19 Oct 2016 16:14:43 GMT",
+      "Date" : "Thu, 20 Oct 2016 14:00:46 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
