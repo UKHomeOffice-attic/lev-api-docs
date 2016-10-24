@@ -1,15 +1,15 @@
 {
-  "uuid" : "c97238d8-5a46-3430-b02b-075d69a9f16b",
+  "uuid" : "f7504a88-839c-39f4-9049-9ad7186847ad",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-FNQmF.txt",
+    "bodyFileName" : "body-(root)-5fsaU.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 24 Oct 2016 16:41:46 GMT",
+      "Date" : "Mon, 24 Oct 2016 16:48:25 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
