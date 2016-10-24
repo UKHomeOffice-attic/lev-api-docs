@@ -1,15 +1,15 @@
 {
-  "uuid" : "96c64937-ee54-3c01-8274-f07192abc1c8",
+  "uuid" : "c97238d8-5a46-3430-b02b-075d69a9f16b",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-jDeUl.txt",
+    "bodyFileName" : "body-(root)-FNQmF.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Thu, 20 Oct 2016 14:04:54 GMT",
+      "Date" : "Mon, 24 Oct 2016 16:41:46 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
