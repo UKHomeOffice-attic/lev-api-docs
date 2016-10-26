@@ -1,15 +1,15 @@
 {
-  "uuid" : "f7504a88-839c-39f4-9049-9ad7186847ad",
+  "uuid" : "35aecec0-229f-38fd-844a-e7921fc75e73",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-5fsaU.txt",
+    "bodyFileName" : "body-(root)-nvDOm.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 24 Oct 2016 16:48:25 GMT",
+      "Date" : "Wed, 26 Oct 2016 17:17:20 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
