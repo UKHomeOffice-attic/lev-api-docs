@@ -1,15 +1,15 @@
 {
-  "uuid" : "35aecec0-229f-38fd-844a-e7921fc75e73",
+  "uuid" : "e22ee974-5145-38e9-8a9e-5e60b0bebe22",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-nvDOm.txt",
+    "bodyFileName" : "body-(root)-fWTd6.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 26 Oct 2016 17:17:20 GMT",
+      "Date" : "Fri, 28 Oct 2016 17:35:24 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }

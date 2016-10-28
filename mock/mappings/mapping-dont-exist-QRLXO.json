@@ -1,0 +1,25 @@
+{
+  "uuid" : "3f2f89f1-0454-3998-91d5-96785a0208e7",
+  "request" : {
+    "url" : "/i/dont/exist",
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiJiOTk0ZTRiZS02NzA4LTRmZjktYjQwNi0wYjNkOWU1YzE0ZjgiLCJleHAiOjE0Nzc2NzY0MjIsIm5iZiI6MCwiaWF0IjoxNDc3Njc2MTIyLCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiJjNDE2NjI3Yy0zM2IxLTQ4ZDQtYWM4Zi01MjdmNDVmMWUyMGIiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiJjNThjNDMwYi1iOGZmLTRhZWMtODMwOC0wZmM4NTJjMmM0NjciLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.GDv5Oo5-g0s42KwemcDgEhVoT6zklW8O3bSyafJa6qjLYxeNXAsXLzRejg79RquJY5qkhtK-csk1C0kXPTKpfk-v9cRVIBXW7rcD4JrZNvGR3wWK3ivqqpZCp5KyDOUUHr2iehyLtW3d6Ic0M9ozXtiL9aRu5O066KoVOxhjtUb_G_bXldsfjvYnYu5epw9ZvQwkcUZYch9FQE810K1pv8prV6v_-XEClQdR4jjcpzulej_9t1uaohITqhryQ_Dkym13O-Tswzlb3CWARDp-ahjMI52HrhMdJkZfI74cMo0ym-iMB_hXWkCr1_wZiWt73lWQcU5rAqdSODNZ8MlTmQ"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 404,
+    "bodyFileName" : "body-dont-exist-QRLXO.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Fri, 28 Oct 2016 17:35:24 GMT",
+      "Content-Type" : "text/plain; charset=UTF-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}
