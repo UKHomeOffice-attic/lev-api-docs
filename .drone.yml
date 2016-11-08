@@ -6,7 +6,7 @@ pipeline:
     environment:
       - DOCKER_HOST=tcp://127.0.0.1:2375
     commands:
-      - docker build -t lev-api-mock .
+      - docker build -t lev-api-mock mock
     when:
       branch: master
       event: push
