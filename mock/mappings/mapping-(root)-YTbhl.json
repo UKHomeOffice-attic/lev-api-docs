@@ -1,15 +1,15 @@
 {
-  "uuid" : "f9d42376-3514-3be2-bb59-237ce0ec9c2b",
+  "uuid" : "a221934e-3648-36ab-a86b-192d30e06925",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-pb6RP.txt",
+    "bodyFileName" : "body-(root)-YTbhl.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 07 Nov 2016 20:31:51 GMT",
+      "Date" : "Tue, 08 Nov 2016 13:50:18 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
