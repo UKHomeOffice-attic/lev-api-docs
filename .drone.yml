@@ -11,6 +11,19 @@ pipeline:
       branch: master
       event: push
 
+  image_to_quay:
+    image: docker:1.11
+    environment:
+      - DOCKER_HOST=tcp://127.0.0.1:2375
+    commands:
+      - docker login -u="ukhomeofficedigital+lev_builder" -p=${DOCKER_PASSWORD} quay.io
+      - docker tag lev-api-mock quay.io/ukhomeofficedigital/lev-api-mock:latest
+      - docker push quay.io/ukhomeofficedigital/lev-api-mock:latest
+    when:
+      branch: master
+      event: push
+
+
 services:
   dind:
     image: docker:1.11-dind
