@@ -3,5 +3,6 @@ RUN curl -o /tmp/wiremock.jar https://repo1.maven.org/maven2/com/github/tomakehu
 EXPOSE 8080
 ADD . /mock
 WORKDIR /mock
+RUN chmod +x docker-helpers/entrypoint.sh
 
 ENTRYPOINT ["docker-helpers/entrypoint.sh"]
