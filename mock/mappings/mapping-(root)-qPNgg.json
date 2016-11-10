@@ -1,15 +1,15 @@
 {
-  "uuid" : "a27f0bcc-4299-39f8-9ecd-87919a5ed94a",
+  "uuid" : "320a2eb2-944f-32fb-8e91-b2540b0a68e3",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-QRfPB.txt",
+    "bodyFileName" : "body-(root)-qPNgg.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 09 Nov 2016 12:23:22 GMT",
+      "Date" : "Thu, 10 Nov 2016 21:32:08 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
