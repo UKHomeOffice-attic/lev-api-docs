@@ -1,5 +1,5 @@
 {
-  "uuid" : "4c776ea7-34d3-3249-be8d-6ee630663670",
+  "uuid" : "9ff0cb41-269d-3a05-9b2a-8f317bb213db",
   "request" : {
     "url" : "/oauth/login",
     "method" : "POST",
@@ -9,10 +9,10 @@
   },
   "response" : {
     "status" : 400,
-    "bodyFileName" : "body-oauth-login-buGFR.txt",
+    "bodyFileName" : "body-oauth-login-WSVMx.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Thu, 10 Nov 2016 22:09:22 GMT",
+      "Date" : "Fri, 11 Nov 2016 13:34:03 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive",
       "Access-Control-Allow-Origin" : "*"
