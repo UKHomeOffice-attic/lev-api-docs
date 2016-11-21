@@ -1,5 +1,5 @@
 {
-  "uuid" : "3c98fe12-6416-392a-a390-2c3671d0152a",
+  "uuid" : "78973a27-e3ff-3111-8bfd-4776920164f0",
   "request" : {
     "url" : "/oauth/login",
     "method" : "POST",
@@ -9,10 +9,10 @@
   },
   "response" : {
     "status" : 400,
-    "bodyFileName" : "body-oauth-login-e9nUO.txt",
+    "bodyFileName" : "body-oauth-login-3Gm6j.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 21 Nov 2016 12:58:22 GMT",
+      "Date" : "Mon, 21 Nov 2016 15:59:01 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive",
       "Access-Control-Allow-Origin" : "*"
