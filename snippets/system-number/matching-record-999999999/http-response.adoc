@@ -2,7 +2,7 @@
 ----
 HTTP/1.1 405 Method Not Allowed
 Server: openresty
-Date: Thu, 17 Nov 2016 11:12:05 GMT
+Date: Mon, 21 Nov 2016 12:33:17 GMT
 Content-Type: text/plain; charset=UTF-8
 Allow: GET
 Content-Length: 47
