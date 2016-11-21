@@ -1,15 +1,15 @@
 {
-  "uuid" : "4a09d6d2-3b2b-31b0-a931-9dd406611ac9",
+  "uuid" : "4a51bae2-0af2-3f28-a705-d72ae410b525",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-qFCGP.txt",
+    "bodyFileName" : "body-(root)-NypLW.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 21 Nov 2016 12:33:22 GMT",
+      "Date" : "Mon, 21 Nov 2016 12:58:27 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
