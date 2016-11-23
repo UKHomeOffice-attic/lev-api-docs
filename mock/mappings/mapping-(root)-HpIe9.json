@@ -1,15 +1,15 @@
 {
-  "uuid" : "4773ef8e-68ec-3b87-97cb-2339dc38da7c",
+  "uuid" : "1b79ece1-62be-3810-8def-7239f008af14",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-IsIJg.txt",
+    "bodyFileName" : "body-(root)-HpIe9.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 21 Nov 2016 15:59:02 GMT",
+      "Date" : "Wed, 23 Nov 2016 11:28:41 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }

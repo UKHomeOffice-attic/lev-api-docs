@@ -23,13 +23,21 @@ to the `lev-api-docs` repo
 == Mock API
 It is possible to run a mock version of the API as follows:
 
-=== Running a mock API with docker
+=== Running a mock API with docker (from Quay.io)
+The latest version of the mock API can be run straight from the `quay.io` hosted image:
+```
+docker pull quay.io/ukhomeofficedigital/lev-api-mock
+docker run -p 8080:8080 quay.io/ukhomeofficedigital/lev-api-mock
+```
+
+=== Running a mock API with docker (from this repo)
 [role=hideable]
 NOTE: The paths in this section refer to the root of the docs project:
 https://github.com/UKHomeOffice/lev-api-docs
 
 The easiest way to run the mock API is with Docker
 ```
+./mock/build_mock_api_docker.sh
 ./mock/run_mock_api_docker.sh
 ```
 

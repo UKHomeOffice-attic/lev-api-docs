@@ -1,0 +1,24 @@
+{
+  "uuid" : "4fc992bb-eed8-3bc2-9163-03c84227330c",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=exampleuser&password=xxxxx"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-oauth-login-lvLMm.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Wed, 23 Nov 2016 11:28:33 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept-Encoding", "Accept-Encoding" ],
+      "Access-Control-Allow-Origin" : "*",
+      "Set-Cookie" : "kc-access=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiIyZTIyNzYzZC1kNjE5LTQ0ZTQtYTdmYy04YWZiMWM2NjA0YzgiLCJleHAiOjE0Nzk5MDA4MTMsIm5iZiI6MCwiaWF0IjoxNDc5OTAwNTEzLCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiJhYTJlNzA3Zi0yM2M4LTQwMzgtODJhNy0wNjZkYjIwZTI0MDgiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiI2ODZhNmE5MC1iNDdmLTQ1MGMtYjcwMi1mNzFmN2I0NTMzMjAiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsia2V5Y2xvYWstcHJveHktYXBpIjp7InJvbGVzIjpbIkFjY2VzcyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.WZudGbmuvLOd5Vk8dlBnnAYN7gFOjBQdJfQFkUBX-ojTn3O-28SQjnnIs7WTHDBXuUNye3MYjkCJ4YxYqcC-t1Xt7hHPFwAzFbsfMu0eCr6Ptmwk5narqB8Af12M1whFQoSHPxbczXEdbPLT2uRR-Jh4EnhGK-pPJxQW_X6IrA5pL8x_d2MSYLwSnhSbWiGemlnYJSCf1tHueGAQlIuwiQZ3BspiHgiaf5nE6vfoEor142pHZoCV8Xw22gaUyAgbwo_zbXJyzqyRf2al_58TKxMXTl0alUE8XLKplbF578Kavb_kuoJ2F9PqumDdSEPVQdu2R4sVlkCqG6WgxD0vbA; Path=/; Domain=lev-api-dev.notprod.homeoffice.gov.uk; Expires=Wed, 23 Nov 2016 11:33:33 GMT; Secure"
+    }
+  }
+}
