@@ -1,0 +1,29 @@
+{
+  "uuid" : "5446c563-df90-3be0-802a-ff6d2a448ca5",
+  "request" : {
+    "url" : "/api/v0/events/birth/999999999",
+    "method" : "POST",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiI0Y2RiYTdmMi0wYjZiLTQwYjAtYTc3Zi0yZjkyYTRhYjZkNWMiLCJleHAiOjE0Nzk5MDU2MDcsIm5iZiI6MCwiaWF0IjoxNDc5OTA1MzA3LCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiIxNjZmODM1NC01YTM4LTQ5MmUtOThkMS05NGMyMWYzZjYxZDgiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiJjYzVkZDk0Ni1hMTU4LTQ3ZGMtOWI4Ny1lMmExYmU5YWZjYjUiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsia2V5Y2xvYWstcHJveHktYXBpIjp7InJvbGVzIjpbIkFjY2VzcyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.cdu4KVbAUxGvc6pJGsKIqpO4t9uMN_kwyNbgRe7hkyq5XGcuqRSWHSAn999XFFsf2txfYl-PaGbnpVczDLu3-p_baiNdsARNQbfv5SxcDa2edZUJYfNju5NheQ20-eerVnJRqf8KKQ4k_MApZ3RDj1ghMFquzD27XJJ2f3XMLbzbRYIm6FHoJOtAdoptSFw2N1LDkMeUAl7liK4-mk4eSMTO5h5zD5ZqDYen1em6PmlfLggkXSY-DrAnj_suedKp3PY6gwXWm5WFeviTdBkot14CeXRPrb3TJxBv6aYB4qJsRqFi_CQjasr6Ef4WcsNMiPVd820rR8BtCTyEb9PTeQ"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    },
+    "bodyPatterns" : [ {
+      "equalTo" : "anyparam=woohoo"
+    } ]
+  },
+  "response" : {
+    "status" : 405,
+    "bodyFileName" : "body-birth-999999999-I0h4m.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Wed, 23 Nov 2016 12:48:28 GMT",
+      "Content-Type" : "text/plain; charset=UTF-8",
+      "Connection" : "keep-alive",
+      "Allow" : "GET"
+    }
+  }
+}
