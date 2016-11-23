@@ -1,15 +1,15 @@
 {
-  "uuid" : "92128883-3114-329b-aaf4-1c65fb762004",
+  "uuid" : "87554e9e-48bc-360f-befd-f8c3a3c0ed0a",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-Fae7j.txt",
+    "bodyFileName" : "body-(root)-mOq6Y.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 23 Nov 2016 13:07:18 GMT",
+      "Date" : "Wed, 23 Nov 2016 16:45:19 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }

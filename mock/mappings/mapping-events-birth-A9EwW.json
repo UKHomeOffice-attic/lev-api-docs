@@ -1,0 +1,25 @@
+{
+  "uuid" : "2efe09d2-2c58-3517-a81b-9ed4dd091528",
+  "request" : {
+    "url" : "/api/v0/events/birth?forenames=Imnothere&lastname=nope",
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiI0NGMxZTZkYy1mZDIzLTRlNzAtODRkNC0wNWNkYmRkODQzNTIiLCJleHAiOjE0Nzk5MTk4MTcsIm5iZiI6MCwiaWF0IjoxNDc5OTE5NTE3LCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiJiM2U4ZDNjNi1lOWM3LTQ3ZjMtODNhOS00M2UyYWFmM2RlN2QiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiIxNjcyNmIyYS0wM2Q5LTQ4NDMtOTE5MS1jOTMxNzUwOWM4ZWIiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsia2V5Y2xvYWstcHJveHktYXBpIjp7InJvbGVzIjpbIkFjY2VzcyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.TP5kvD3oZF64XfDyfcj_VJUsO_BDcFWdHlkBfNSc5JwGxEajSLp99o89d0MzXMRZ3QiUfYiQzSa-4LDmwdLgvpRhQ8FUl7WVE5R0de0BImaSJO1B4bRr7vFtvE7nX1T9jjUKMHSzFQu7XCvru0dl6IHVA2glmQ73paNq8SWTM16wkHoxOKzCoGUxEvkXAL5AQnRIVRH7sMBLidaCwEojRhFWEhhoEM37p6ScGS3AW6o6iO4G9jUBDHOOI6j-KN-T45sRw7B-6TfxhTdlh2p_wkjsK1hvtOgZr2-Rm_nhpwkauiHPm4V35wBWoFyrAxvK1FfssbvO7uSRDw2C-u7dUw"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-events-birth-A9EwW.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Wed, 23 Nov 2016 16:45:24 GMT",
+      "Content-Type" : "text/plain; charset=UTF-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}
