@@ -1,0 +1,17 @@
+{
+  "uuid" : "03eafe95-362f-3beb-90c9-bc13dd22520f",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-(root)-eA7CT.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 05 Dec 2016 09:26:56 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

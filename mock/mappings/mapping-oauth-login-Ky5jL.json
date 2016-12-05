@@ -1,0 +1,21 @@
+{
+  "uuid" : "308d7202-af4e-3b5b-a9d9-5c492ba4ef54",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=a-username"
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-oauth-login-Ky5jL.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 05 Dec 2016 09:26:56 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive",
+      "Access-Control-Allow-Origin" : "*"
+    }
+  }
+}

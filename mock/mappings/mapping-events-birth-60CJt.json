@@ -1,0 +1,27 @@
+{
+  "uuid" : "b4cff5cf-4706-308c-adc0-4bac649e7b60",
+  "request" : {
+    "url" : "/api/v0/events/birth?forenames=Gab%27i%C5%93-%C3%84%C3%A6y&lastname=Ha%C3%900%C3%84%C5%93%C3%84%C3%A6es&dateofbirth=2011-10-01",
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiI4MTFkM2Q5My00MDM1LTQ5YzQtYjQ2NC1mMzliMGI5NjE5YTAiLCJleHAiOjE0ODA5MzAzMTUsIm5iZiI6MCwiaWF0IjoxNDgwOTMwMDE1LCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI1YWU4MzFhOC0yY2MyLTRiZDUtYWY1OC03YmNhYWNiZmVkYTAiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiIxY2ZjOTUzYS0wNTMwLTQ0ZTYtYTc3ZC0xYTNmNWJlMGExNDUiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsia2V5Y2xvYWstcHJveHktYXBpIjp7InJvbGVzIjpbIkFjY2VzcyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.eQn9tPEmKDhAIn8mU8lxe5PHdqyd1VFiNrI-wzO_cfXwlF0O4pV8EkDw33NORj140YWgfuWfbLiIkKX4x6H0QR7qQV3zST9RsDvA8OqJ48CAzCJcLjkYqY8s-8kupAXddb7f-LPDbi0zWPaMNtbF-YsKZQK2u_uVT5-hPSVIujR9CYrqEqKX70YohExpNdwPS7zzqZVAEYRV7dGseZEA3ETTse0-CbGfvfzrst6_GiVYzO9GsSAchSehMYXaF-Lug6og4jLdpPICZgGa5e3PTaZxNJpw9XSACSk8q3RqN1Os1glvNrbAmEd6F5wumLgB0K2aGy5gVgfDArJqbKc2Kw"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-events-birth-60CJt.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 05 Dec 2016 09:26:57 GMT",
+      "Content-Type" : "application/json; charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept-Encoding", "Accept-Encoding" ]
+    }
+  }
+}
