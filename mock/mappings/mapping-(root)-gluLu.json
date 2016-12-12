@@ -1,15 +1,15 @@
 {
-  "uuid" : "03eafe95-362f-3beb-90c9-bc13dd22520f",
+  "uuid" : "718a63de-264f-3023-bb88-111802f6442f",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-eA7CT.txt",
+    "bodyFileName" : "body-(root)-gluLu.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 05 Dec 2016 09:26:56 GMT",
+      "Date" : "Mon, 12 Dec 2016 11:51:23 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
