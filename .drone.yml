@@ -18,11 +18,10 @@ pipeline:
     commands:
       - docker login -u="ukhomeofficedigital+lev_builder" -p=${DOCKER_PASSWORD} quay.io
       - docker tag lev-api-mock quay.io/ukhomeofficedigital/lev-api-mock:latest
-      - docker push quay.io/ukhomeofficedigital/lev-api-mock:latest
+      - docker push quay.io/ukhomeofficedigital/lev-api-mock:$(cat ./mock/version)
     when:
       branch: master
       event: push
-
 
 services:
   dind:
