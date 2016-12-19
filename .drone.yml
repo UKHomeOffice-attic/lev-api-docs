@@ -17,8 +17,9 @@ pipeline:
       - DOCKER_HOST=tcp://127.0.0.1:2375
     commands:
       - docker login -u="ukhomeofficedigital+lev_builder" -p=${DOCKER_PASSWORD} quay.io
-      - docker tag lev-api-mock quay.io/ukhomeofficedigital/lev-api-mock:latest
-      - docker push quay.io/ukhomeofficedigital/lev-api-mock:$(cat ./mock/version)
+      - TAG=$(cat ./mock/version)
+      - docker tag lev-api-mock "quay.io/ukhomeofficedigital/lev-api-mock:${TAG}"
+      - docker push "quay.io/ukhomeofficedigital/lev-api-mock:${TAG}"
     when:
       branch: master
       event: push
