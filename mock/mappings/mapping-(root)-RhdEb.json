@@ -1,0 +1,17 @@
+{
+  "uuid" : "c762d27d-ec02-304c-a310-28a726cb55c0",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-(root)-RhdEb.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 19 Dec 2016 15:02:55 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}
