@@ -1,0 +1,21 @@
+{
+  "uuid" : "1579d8c5-0976-3e03-84bf-fbf4b2ad6c1d",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=a-username"
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-oauth-login-HPFjg.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 19 Dec 2016 16:28:43 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive",
+      "Access-Control-Allow-Origin" : "*"
+    }
+  }
+}

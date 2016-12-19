@@ -1,0 +1,17 @@
+{
+  "uuid" : "55d02dbe-1c47-3fc7-a140-427a7c9e423b",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-(root)-ELXPo.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 19 Dec 2016 16:28:46 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}
