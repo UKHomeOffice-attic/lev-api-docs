@@ -1,0 +1,25 @@
+{
+  "uuid" : "67e5e54e-f6fc-3637-a96b-e40a6abf38d0",
+  "request" : {
+    "url" : "/api/v0/events/birth?forenames=Imnothere&lastname=nope&dateofbirth=2013-01-01",
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiJmMzY1NDczNi05Y2EzLTRhNzItOWI4YS01OWU4YzZjMTMzMzEiLCJleHAiOjE0ODM1NDI4NjgsIm5iZiI6MCwiaWF0IjoxNDgzNTQyNTY4LCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiIxMzgzZGUyNy1mYWUwLTRmZDctOGM5MS1hZDc3NDFlNjUxZjgiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiI4OTNkOGIyNi03YjhhLTQ0ODItOWFiNy05NDVlNDU3OTkxNDAiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsia2V5Y2xvYWstcHJveHktYXBpIjp7InJvbGVzIjpbIkFjY2VzcyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.gs8qloHjpmfOAHKqQrYWu7g6wP60E89h2DHsad9BETLhaSCx4u7qW-E1QMx6ippwW_apxchFU9PGmx6eQPWlfEicC-gLxjnCTSn8QXhwXWMPg3o0nAbeV4iGfBQLUeSO0c6kHnszt9_oOhqMyEoD4--4JaBt_ipT8xMjSzE8d7DtGVjV1e9lSUNBljM-V6_5hh3d51Czu6ON4z0PoIW4BuBb1FrJvekXhkA1cWkq9fUhq4z6prIe4jSDdXdpjJck1dJpd0sM5izW-1Y8yjyqTnaNczgxDOSrP1Yez8zBLNQ8CdAgPk_zCsA52xnd6dJ_1POHp0xYh2pxn9hz1OePNg"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-events-birth-HRPA2.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Wed, 04 Jan 2017 15:09:30 GMT",
+      "Content-Type" : "application/json; charset=UTF-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}
