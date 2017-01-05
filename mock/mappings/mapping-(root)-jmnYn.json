@@ -1,15 +1,15 @@
 {
-  "uuid" : "ba7253d6-1b36-3e24-b396-1876a575a469",
+  "uuid" : "d89b81c1-8350-312e-b2ea-6a4432e3e420",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-chqP1.txt",
+    "bodyFileName" : "body-(root)-jmnYn.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Wed, 04 Jan 2017 15:09:30 GMT",
+      "Date" : "Thu, 05 Jan 2017 11:58:27 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
