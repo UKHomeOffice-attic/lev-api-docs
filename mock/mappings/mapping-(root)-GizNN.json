@@ -1,15 +1,15 @@
 {
-  "uuid" : "d89b81c1-8350-312e-b2ea-6a4432e3e420",
+  "uuid" : "c879d944-9a86-3a75-8bc5-1a989cd5a30f",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-jmnYn.txt",
+    "bodyFileName" : "body-(root)-GizNN.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Thu, 05 Jan 2017 11:58:27 GMT",
+      "Date" : "Thu, 05 Jan 2017 12:34:43 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
