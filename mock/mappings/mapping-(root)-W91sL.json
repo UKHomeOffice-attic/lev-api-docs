@@ -1,15 +1,15 @@
 {
-  "uuid" : "a05c1b03-a3c5-3c40-bb13-7c19eefe48fb",
+  "uuid" : "55c14f74-7bbb-39d5-a0c7-3562a9821896",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-nBk4b.txt",
+    "bodyFileName" : "body-(root)-W91sL.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 09 Jan 2017 17:26:55 GMT",
+      "Date" : "Mon, 09 Jan 2017 17:30:20 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
