@@ -1,0 +1,38 @@
+{
+  "uuid" : "26661f29-ad0b-345b-b59c-8ec356c0e1d3",
+  "request" : {
+    "urlPath" : "/api/v0/events/birth",
+    "queryParameters" : {
+      "forenames" : {
+        "equalTo" : "Tester"
+      },
+      "lastname" : {
+        "equalTo" : "Solo"
+      },
+      "dateofbirth" : {
+        "equalTo" : "2012-02-29"
+      }
+    },
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiJmODQxZThjZi04NmIyLTRlOTQtOGViYi0zNTI3NTAxNzQwYTAiLCJleHAiOjE0ODM5NzY2NTAsIm5iZiI6MCwiaWF0IjoxNDgzOTc2MzUwLCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI3ZGY5YTQ3OS0yNmM0LTRlMjYtYjgxZi1jOWYxNGIxZTc5M2EiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiJkMjY4MzA0MS0wMzEzLTQyMDktYjJjNi05OTc2MGY2NmRmNTkiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZXNvdXJjZV9hY2Nlc3MiOnsia2V5Y2xvYWstcHJveHktYXBpIjp7InJvbGVzIjpbIkFjY2VzcyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.IZIdcgFXBziSTKW_k79N2PSswNJrvd8yrVlQ4YnrEE-CMDgzGUkB3SKYR4ap_C8vs7QqNwz0E3q-6c3OOav4dXaRfLiS4euwHHzEy5aK3drZfQ-5gsyT39G8EJVLaW-LzC2lHVnlVxXQkyj1HrcJoBH_B9sFPoHRx3XMIStANwvyjzpYMsge04Acn9dA0l0civ_aMtqimzNR_hPZCqL1asnLd-qODjMfRy1VqDSoJzhCgRsYCTBmIZCjx9ccZ6a0x474KWWgic_yph7luUvHiCMJLEC71lrMP-NiWrQSvSMFFZh5acLdE4sRoBY2g7VXj8xKaeB2DSlOyRO1ATg_9w"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-events-birth-BkQaC.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 09 Jan 2017 15:39:13 GMT",
+      "Content-Type" : "application/json; charset=UTF-8",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept-Encoding", "Accept-Encoding" ]
+    }
+  }
+}
