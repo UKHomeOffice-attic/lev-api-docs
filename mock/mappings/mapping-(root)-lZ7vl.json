@@ -1,15 +1,15 @@
 {
-  "uuid" : "7a289447-2fe4-3390-90c2-9c7bf5a8af24",
+  "uuid" : "7d1344f7-e4ad-3650-aeab-54e7fb856f67",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-2lDwG.txt",
+    "bodyFileName" : "body-(root)-lZ7vl.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 09 Jan 2017 15:39:12 GMT",
+      "Date" : "Mon, 09 Jan 2017 15:50:46 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
