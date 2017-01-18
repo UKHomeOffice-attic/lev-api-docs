@@ -1,15 +1,15 @@
 {
-  "uuid" : "a65a26a0-59a3-3fae-9cc4-03c1c6cc6044",
+  "uuid" : "36f7581a-0480-30b8-9081-4b22d450ea33",
   "request" : {
     "url" : "/",
     "method" : "GET"
   },
   "response" : {
     "status" : 401,
-    "bodyFileName" : "body-(root)-5XO3C.txt",
+    "bodyFileName" : "body-(root)-O2OmC.txt",
     "headers" : {
       "Server" : "openresty",
-      "Date" : "Mon, 09 Jan 2017 17:47:11 GMT",
+      "Date" : "Wed, 18 Jan 2017 11:24:53 GMT",
       "Content-Type" : "text/plain; charset=utf-8",
       "Connection" : "keep-alive"
     }
