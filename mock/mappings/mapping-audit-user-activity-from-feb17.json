@@ -14,9 +14,6 @@
       },
       "X-Auth-Downstream-Username" : {
         "equalTo" : "lev-audit-e2e-tests"
-      },
-      "X-Auth-Roles" : {
-        "equalTo" : "Auditor"
       }
     }
   },

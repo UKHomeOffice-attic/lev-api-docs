@@ -1,0 +1,17 @@
+{
+  "uuid" : "b9f9c77e-959f-33e5-b741-e61837acb3e9",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-(root)-ONupp.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Thu, 16 Feb 2017 17:29:00 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

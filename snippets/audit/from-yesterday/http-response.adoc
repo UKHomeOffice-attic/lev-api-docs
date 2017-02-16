@@ -2,13 +2,16 @@
 ----
 HTTP/1.1 200 OK
 Server: openresty
-Date: Thu, 16 Feb 2017 15:21:27 GMT
+Date: Thu, 16 Feb 2017 17:29:02 GMT
 Content-Type: application/json; charset=UTF-8
-Content-Length: 48
+Content-Length: 89
 
 {
+  "tester": {
+    "2017-02-16": 17
+  },
   "lev-e2e-tests": {
-    "2017-02-16": 6
+    "2017-02-16": 12
   }
 }
 ----
