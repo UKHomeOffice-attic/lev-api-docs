@@ -1,0 +1,25 @@
+{
+  "uuid" : "c9c9d522-d724-396a-8518-480a378bfe46",
+  "request" : {
+    "url" : "/api/v0/audit/user-activity",
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "equalTo" : "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiI0Yzc3NmU0YS00YWI4LTQ2OWEtYmJmMC0xNjMwYWU1YzUwNzEiLCJleHAiOjE0ODcyNTg3NzgsIm5iZiI6MCwiaWF0IjoxNDg3MjU4NDc4LCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjRhZDg4OTUwLWVmZWQtNDJjZS04YzMzLTA0MTNjNmViNDRmMCIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI0NmY0NTU0MC0xMTAzLTRkNDAtYTQ1Zi1kMDFhZTFjN2ZmMGUiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiIzNzI2N2Q1Mi0zYjNiLTRmMzUtODRmNi03MDJjZmUzOTA5M2UiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJrZXljbG9hay1wcm94eS1hcGkiOnsicm9sZXMiOlsiQWNjZXNzIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50Iiwidmlldy1wcm9maWxlIl19fSwibmFtZSI6IiIsInByZWZlcnJlZF91c2VybmFtZSI6Im5vLWF1ZGl0In0.XtZ6NnVuUNFEfg27RaykpQFPTMSBbBrDL_VOVFrpCDHn9zdJXLgdqfduzDfJjm3kU1FA49XdvBscKNROiQP6OU5plePXrBhsRlQqE-yuAZxKXEA-3Ix98ULPJ4ZH4_rIeGYMJhxGBcPBzWyB6lqUdtw5o2R5A7bP32OFx9I9yABs4rl2c8UmM3mHMshq4-uzAoF4Zu3LJ14bCeg2ytRWfjsk0JPufa0Qv27HE2VlAHLIYG9Ktiqoh22NKDMCm4-wX8CEGEPjTXCU89bQs7pZA54B1g5oI8rMjvx75-7tDEbj2Yfly8SFKlJmNZU6b9u-GTuQwIIDZuK2iAdvk3NH0Q"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-audit-user-activity-92Nvd.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Thu, 16 Feb 2017 15:21:26 GMT",
+      "Content-Type" : "text/plain; charset=UTF-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

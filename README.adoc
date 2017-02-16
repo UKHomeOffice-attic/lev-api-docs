@@ -433,3 +433,57 @@ discouraged and should be considered deprecated in favour of the `forenames` par
     }
 </style>
 ++++
+
+== Retrieving audit information
+For certain users with special permissions, it is possible to retrieve an aggregated
+count of system users' search activity.
+
+=== Auditor level access
+All requests to the audit information end points must be made by a user with auditor
+level permissions, otherwise the request will fail with the standard `401
+Unauthorised` error.
++++ <details><summary> +++
+*Example `curl` request* by an API user without the special auditor permissions
++++ </summary><div> +++
+include::snippets/audit/invalid-permissions/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* by an API user without the special auditor permissions
++++ </summary><div> +++
+include::snippets/audit/invalid-permissions/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/audit/invalid-permissions/http-response.adoc[]
++++ </div></details> +++
+
+=== Audit record filters
+The audit record data returned can be filtered by providing the following
+parameters.
+
+==== A date range
+The date range is optional. It can be omitted entirely, only one part specified, or
+fully specified by providing the `from` and `to` date parameters.
++++ <details><summary> +++
+*Example `curl` request* filtering out records except those made between yesterday
+and one minute ago
++++ </summary><div> +++
+include::snippets/audit/from-yesterday-until-a-minute-ago/curl-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example `HTTP` request* filtering out records except those made between yesterday
+and one minute ago
++++ </summary><div> +++
+include::snippets/audit/from-yesterday-until-a-minute-ago/http-request.adoc[]
++++ </div></details> +++
+
++++ <details><summary> +++
+*Example response* detailing the error
++++ </summary><div> +++
+include::snippets/audit/from-yesterday-until-a-minute-ago/http-response.adoc[]
++++ </div></details> +++
+

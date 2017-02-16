@@ -1,0 +1,35 @@
+{
+  "uuid" : "00000000-0000-0000-0000-000000000019",
+  "request" : {
+    "urlPath" : "/api/v0/audit/user-activity",
+    "queryParameters" : {
+      "from": {
+        "matches": "1\\d{3}-.+"
+      },
+      "to": {
+        "matches": "1\\d{3}-.+"
+      }
+    },
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "matches" : "Bearer .+"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-audit-e2e-tests"
+      },
+      "X-Auth-Roles" : {
+        "equalTo" : "Auditor"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-audit-user-activity-no-results.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Content-Type" : "application/json; charset=UTF-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

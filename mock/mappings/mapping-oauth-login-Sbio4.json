@@ -1,0 +1,21 @@
+{
+  "uuid" : "df0d225f-78be-3af6-a74b-af0138b6acc5",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=a-username"
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-oauth-login-Sbio4.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Thu, 16 Feb 2017 15:21:19 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive",
+      "Access-Control-Allow-Origin" : "*"
+    }
+  }
+}

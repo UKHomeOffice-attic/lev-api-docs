@@ -2,10 +2,10 @@
 ----
 HTTP/1.1 400 Bad Request
 Server: openresty
-Date: Wed, 18 Jan 2017 11:24:58 GMT
+Date: Thu, 16 Feb 2017 15:21:26 GMT
 Content-Type: text/plain; charset=UTF-8
 Transfer-Encoding: chunked
-Content-Length: 84
+Content-Length: 79
 
-forenames and forename1 or 2 or 3 or 4 both defined. Please provide one or the other
+Must only provide forenames, or forename1 (plus optionally forenmae2, 3, and 4)
 ----

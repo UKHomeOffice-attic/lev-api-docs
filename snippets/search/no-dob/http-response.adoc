@@ -2,10 +2,10 @@
 ----
 HTTP/1.1 400 Bad Request
 Server: openresty
-Date: Wed, 18 Jan 2017 11:24:58 GMT
+Date: Thu, 16 Feb 2017 15:21:26 GMT
 Content-Type: text/plain; charset=UTF-8
 Transfer-Encoding: chunked
-Content-Length: 36
+Content-Length: 66
 
-Must provide date of birth parameter
+Must provide date of birth parameter - e.g. dateofbirth=2000-01-31
 ----
