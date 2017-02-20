@@ -1,0 +1,21 @@
+{
+  "uuid" : "cf450189-3906-3929-9085-f9688f6b45c2",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=invalid-username&password=invalid-password"
+    } ]
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-oauth-login-5aP5w.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 20 Feb 2017 16:26:04 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive",
+      "Access-Control-Allow-Origin" : "*"
+    }
+  }
+}

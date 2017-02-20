@@ -1,0 +1,17 @@
+{
+  "uuid" : "a8ba2986-c91c-3676-97d8-79318b60d4a9",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-(root)-2Joln.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 20 Feb 2017 16:26:03 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

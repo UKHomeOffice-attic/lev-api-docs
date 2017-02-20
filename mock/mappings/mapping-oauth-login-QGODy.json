@@ -1,0 +1,21 @@
+{
+  "uuid" : "968f177e-f198-3982-8d48-21c7866b43b1",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "username=a-username"
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "bodyFileName" : "body-oauth-login-QGODy.txt",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 20 Feb 2017 16:26:03 GMT",
+      "Content-Type" : "text/plain; charset=utf-8",
+      "Connection" : "keep-alive",
+      "Access-Control-Allow-Origin" : "*"
+    }
+  }
+}

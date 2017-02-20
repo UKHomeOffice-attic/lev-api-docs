@@ -1,0 +1,29 @@
+{
+  "uuid" : "00000000-0000-0000-0000-000000000004",
+  "request" : {
+    "urlPath" : "/api/v0/audit/user-activity",
+    "queryParameters" : {
+      "from": {
+        "matches": "2017-02-.+"
+      }
+    },
+    "method" : "GET",
+    "headers" : {
+      "Authorization" : {
+        "matches" : "Bearer .+"
+      },
+      "X-Auth-Downstream-Username" : {
+        "equalTo" : "lev-e2e-tests"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-audit-user-activity-from-feb17.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Content-Type" : "application/json; charset=UTF-8",
+      "Connection" : "keep-alive"
+    }
+  }
+}

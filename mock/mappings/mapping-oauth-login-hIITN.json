@@ -1,0 +1,24 @@
+{
+  "uuid" : "34465ece-e197-3952-b9ec-97d5964afc6f",
+  "request" : {
+    "url" : "/oauth/login",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "matches" : ".*username=exampleuser&password=xxxxx.*"
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-oauth-login-hIITN.json",
+    "headers" : {
+      "Server" : "openresty",
+      "Date" : "Mon, 20 Feb 2017 16:26:01 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Vary" : [ "Accept-Encoding", "Accept-Encoding" ],
+      "Access-Control-Allow-Origin" : "*",
+      "Set-Cookie" : "kc-access=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPQmYtc0JtWFFWcXlVVkt2dS1MQ3pmMENWeGNSOTFLWFQ0OGg0MlgxLUxvIn0.eyJqdGkiOiI5MWYxODMyZC05NjYwLTQzYjAtYmI4Ny1iZmIwNzY4ZjNlNzMiLCJleHAiOjE0ODc2MDgyNjEsIm5iZiI6MCwiaWF0IjoxNDg3NjA3OTYxLCJpc3MiOiJodHRwczovL3Nzby5kaWdpdGFsLmhvbWVvZmZpY2UuZ292LnVrL2F1dGgvcmVhbG1zL2xldi1hcGktZGV2dWF0IiwiYXVkIjoibGV2LXdlYiIsInN1YiI6IjBlNjg3MWQ5LTIwMzAtNGFkMC05YjEyLTRlNTYyNjE1YTRiZiIsInR5cCI6IkJlYXJlciIsImF6cCI6Imxldi13ZWIiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiJjZDkwODM4Yi1lZjc5LTRhZWQtOTVlZS04ZDY0NzZjMWY4YTYiLCJhY3IiOiIxIiwiY2xpZW50X3Nlc3Npb24iOiJjMjhlMTRlMC1jZDA5LTRiMWEtYWNmNi04ZjJkODA5ZWU5ZjQiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiQXVkaXRvciIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsia2V5Y2xvYWstcHJveHktYXBpIjp7InJvbGVzIjpbIkFjY2VzcyJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sIm5hbWUiOiIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJsZXYtd2ViIn0.bQi1NwvQwx3IpDsuxsSo6_UBTTp4-5wIpWq0nFX9Qqeo8PhVJT8CoKiDCYltTmPVM0TpqmT4jLF3kAntvXxCU8Ujc_Y5HM3eKvrR0QR9aFsCcu1FXM-4e6YSht_FpMvDSUscYPEWxclGQ_kIz--Qz2GbSdHxj7bjuX9hkdH_HswoFGWoaVds-EfqdXmKAEUe63bma-kLehMmLsY-oXWupf7Qd7UoXVZDH8bOhZUjHuWeLMuR0H-6PxAXRWkbsk0qPt70S_8MTH1eoP6XB6su76EMwRYGkcEGjjKthvsCXcqn3K8Yd4eGeHLjpNlIF5yMT7hy0uiNfTrG3dnBJk4KEg; Path=/; Domain=lev-api-dev.notprod.homeoffice.gov.uk; Expires=Mon, 20 Feb 2017 16:31:01 GMT; Secure"
+    }
+  }
+}
