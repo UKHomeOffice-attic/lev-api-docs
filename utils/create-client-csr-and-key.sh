@@ -30,7 +30,12 @@ O="${3}"
 L="${4}"
 ST="${5}"
 C="${6:-GB}"
-E="${7}"
+if [ ${#6} -gt 2 ]; then
+  C="GB"
+  E="${6}"
+else
+  E="${7}"
+fi
 
 function check_arg {
   if [ -z "${1}" ]; then
