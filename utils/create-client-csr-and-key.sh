@@ -61,4 +61,4 @@ SUBJ="/C=${C}/ST=${ST}/L=${L}/O=${O}/OU=${OU}/CN=${CN}${E_LONG}"
 echo "Producing CSR / Private key pair for \"${SUBJ}\"..."
 
 openssl genrsa -out client.key 4096
-openssl req -new -key client.key  -subj "${SUBJ}" -out client.csr
+openssl req -new -key client.key -sha256 -subj "${SUBJ}" -out client.csr
