@@ -8,7 +8,7 @@
   "dependencies": {
     "aglio": "^2.2.0",
     "drakov": "^1.0.0",
-    "dredd": "^1.0.10",
+    "dredd": "^2.2.3",
     "querystring": "^0.2.0",
     "request": "^2.72.0"
   }
