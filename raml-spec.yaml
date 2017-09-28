@@ -1,0 +1,65 @@
+#%RAML 0.8
+---
+title: Life Event Verification API
+baseUri: http://localhost/
+securitySchemes:
+  - noddy:
+      type: x-noddy
+      describedBy:
+        headers:
+          X-Auth-Username:
+            example: "user"
+            type: string
+            required: true
+          X-Auth-Aud:
+            example: "client"
+            type: string
+            required: true
+schemas:
+  - v0-Birth: !include schema/v0/Birth.json
+    v0-Births: !include schema/v0/Births.json
+#  - v0: !include schema/v0.json
+/api/v0/events:
+  /birth:
+    get:
+      description: Search for birth records
+      queryParameters:
+        forenames:
+          displayName: Forename(s)
+          description: The child's forenames. The first name must be provided but middlenames are optional.
+          example: "Joan"
+          required: true
+          type: string
+        lastname:
+          displayName: Surname
+          description: The child's surname.
+          example: "Smith"
+          required: true
+          type: string
+        dateofbirth:
+          displayName: Date of birth
+          description: The child's date of birth in international format.
+          example: "2008-08-08"
+          required: true
+          type: string
+      responses:
+        200:
+          body:
+            application/json:
+              schema: v0-Births
+#              schema: v0#/births
+              example: !include example/v0/Births.json
+    /{systemNumber}:
+      uriParameters:
+        systemNumber:
+          example: "123456789"
+          type: integer
+      get:
+        description: Look up a specific birth record
+        responses:
+          200:
+            body:
+              application/json:
+                schema: v0-Birth
+#                schema: v0#/birth
+                example: !include example/v0/Birth.json

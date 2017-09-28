@@ -1,0 +1,7 @@
+{
+  "$schema": "json-schema.org/draft-04/schema",
+  "type": "array",
+  "items": {
+    "$ref": "lev.homeoffice.gov.uk/schema/v0/Birth"
+  }
+}

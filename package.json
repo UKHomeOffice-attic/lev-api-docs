@@ -6,10 +6,14 @@
     "stop": "fuser -k 8080/tcp; exit 0"
   },
   "dependencies": {
+    "abao": "^0.5.0",
     "aglio": "^2.2.0",
     "drakov": "^1.0.0",
     "dredd": "^1.0.10",
+    "osprey-mock-service": "^0.2.1",
     "querystring": "^0.2.0",
+    "raml-mockup": "^0.2.1",
+    "raml-server": "^0.1.6",
     "request": "^2.72.0"
   }
 }
